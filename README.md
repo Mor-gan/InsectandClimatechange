@@ -24,6 +24,8 @@ alignment view options:
 
 **4 = Flat query-anchored no identities,**
 -  The 'flat' display shows inserts as deletions on the query. Identities are displayed as dashes, with mismatches displayed as single letter nucleotide abbreviations.
+
+-  
 **5 = BLAST XML,**
 **6 = Tabular,**
 **7 = Tabular with comment lines,**
@@ -49,5 +51,5 @@ alignment view options:
 
     16 = Single-file BLAST XML2,
 
-    
+
     18 = Organism Report
