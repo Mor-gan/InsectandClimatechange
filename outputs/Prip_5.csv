@@ -1,0 +1,1106 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>dbb1/dbGG1</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>BAK32935.1_aquaporin_Belgica_antarctica</BlastOutput_query-def>
+  <BlastOutput_query-len>291</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1e-10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>BAK32935.1_aquaporin_Belgica_antarctica</Iteration_query-def>
+  <Iteration_query-len>291</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|XP_037300466.1|</Hit_id>
+  <Hit_def>aquaporin isoform X1 [Manduca sexta]</Hit_def>
+  <Hit_accession>XP_037300466</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.559</Hsp_bit-score>
+      <Hsp_score>706</Hsp_score>
+      <Hsp_evalue>2.51917e-92</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>LGANELSAKTHNLWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAFAAPEIDSHAPEKYRQVQTDDKEMRRLNA</Hsp_qseq>
+      <Hsp_hseq>LGLDELAGGAAAISKALLAEFIGNLLLNFFGCGSCVNVGAAVG---------------------------GIITIAMAFGLAVYAAVSVIGHISGGHINPAVTIGLLSVGRVKPIRAVLYIIAQCAGAAAGSGILKALTPEKV-AGP--LGATSLGNEVTQLQGFGIEFFLGFVLVFVVCGVCDPNKPDSKATAPLAIGLTVTMGHLCAVDYTGSSMNPARSFGSALVINTWADHWVYWAGPIAGGIVGALLYVHGFSASVPDT--PTRYRSVASDEKELKRLDS</Hsp_hseq>
+      <Hsp_midline>LG +EL+     + K++LAEFIG  +LNFF C +C       G                            +  IA+AFGL+V+ A   IGHISG HINPAVT+GLL+ G+V  +RAV YI+AQCAGAAAG   L AL      AGP  LG TSL   V++ QG G EFFLGFVLV VV GV D NKPDS+  APLAIGLTVT+GHL  V YTGSSMNPAR+FG+AL+   W  HW+YWAGPI GG+  ALLYV  F+A   D+  P +YR V +D+KE++RL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|XP_037300468.1|</Hit_id>
+  <Hit_def>aquaporin isoform X2 [Manduca sexta]</Hit_def>
+  <Hit_accession>XP_037300468</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.789</Hsp_bit-score>
+      <Hsp_score>704</Hsp_score>
+      <Hsp_evalue>2.9883e-92</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>LGANELSAKTHNLWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAFAAPEIDSHAPEKYRQVQTDDKEMRRLNA</Hsp_qseq>
+      <Hsp_hseq>LGLDELAGGAAAISKALLAEFIGNLLLNFFGCGSCVNVGAAVG---------------------------GIITIAMAFGLAVYAAVSVIGHISGGHINPAVTIGLLSVGRVKPIRAVLYIIAQCAGAAAGSGILKALTPEKV-AGP--LGATSLGNEVTQLQGFGIEFFLGFVLVFVVCGVCDPNKPDSKATAPLAIGLTVTMGHLCAVDYTGSSMNPARSFGSALVINTWADHWVYWAGPIAGGIVGALLYVHGFSASVPDT--PTRYRSVASDEKELKRLDS</Hsp_hseq>
+      <Hsp_midline>LG +EL+     + K++LAEFIG  +LNFF C +C       G                            +  IA+AFGL+V+ A   IGHISG HINPAVT+GLL+ G+V  +RAV YI+AQCAGAAAG   L AL      AGP  LG TSL   V++ QG G EFFLGFVLV VV GV D NKPDS+  APLAIGLTVT+GHL  V YTGSSMNPAR+FG+AL+   W  HW+YWAGPI GG+  ALLYV  F+A   D+  P +YR V +D+KE++RL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|XP_037300467.1|</Hit_id>
+  <Hit_def>aquaporin isoform X2 [Manduca sexta]</Hit_def>
+  <Hit_accession>XP_037300467</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.789</Hsp_bit-score>
+      <Hsp_score>704</Hsp_score>
+      <Hsp_evalue>2.9883e-92</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>LGANELSAKTHNLWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAFAAPEIDSHAPEKYRQVQTDDKEMRRLNA</Hsp_qseq>
+      <Hsp_hseq>LGLDELAGGAAAISKALLAEFIGNLLLNFFGCGSCVNVGAAVG---------------------------GIITIAMAFGLAVYAAVSVIGHISGGHINPAVTIGLLSVGRVKPIRAVLYIIAQCAGAAAGSGILKALTPEKV-AGP--LGATSLGNEVTQLQGFGIEFFLGFVLVFVVCGVCDPNKPDSKATAPLAIGLTVTMGHLCAVDYTGSSMNPARSFGSALVINTWADHWVYWAGPIAGGIVGALLYVHGFSASVPDT--PTRYRSVASDEKELKRLDS</Hsp_hseq>
+      <Hsp_midline>LG +EL+     + K++LAEFIG  +LNFF C +C       G                            +  IA+AFGL+V+ A   IGHISG HINPAVT+GLL+ G+V  +RAV YI+AQCAGAAAG   L AL      AGP  LG TSL   V++ QG G EFFLGFVLV VV GV D NKPDS+  APLAIGLTVT+GHL  V YTGSSMNPAR+FG+AL+   W  HW+YWAGPI GG+  ALLYV  F+A   D+  P +YR V +D+KE++RL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_016930642.1|</Hit_id>
+  <Hit_def>aquaporin AQPAe.a [Drosophila suzukii]</Hit_def>
+  <Hit_accession>XP_016930642</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.618</Hsp_bit-score>
+      <Hsp_score>675</Hsp_score>
+      <Hsp_evalue>6.54104e-88</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>KYTLGANELSAKTHNLWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLY---VLAFAAPEIDSHAPEKYRQVQTDDKEMRRLN</Hsp_qseq>
+      <Hsp_hseq>EYSLGLNELKSKELRLWQALIGEFLGNLILNFFACGACTQI-------------------------------EDGTFKALAFGLAIFMAITIVGHLSGGHVNPAVTAGMLIAGRISLIRAIFYVIFQCLGAIAGTAAVKILIDRDY---YNGLGHTSLAQNITELQGVGIEFFLGLLLVLVVFGACDPHKPDSRYTAPLAIGMAVTLGHLGTIRYTGASMNPARTVGTAFATDNWTSHWVYWVGPVLGGVAAALLYTQVLEAKPAPKVNE-ASEKYR-THADEREMRKLE</Hsp_hseq>
+      <Hsp_midline>+Y+LG NEL +K   LW++++ EF+G  ILNFF+C ACTQ                                 D T  ALAFGL++FMA   +GH+SG H+NPAVT G+L AG++S++RA+FY++ QC GA AG A++  L+         GLGHTSL+  ++E QG+G EFFLG +LVLVVFG  D +KPDSR+ APLAIG+ VTLGHLGT+ YTG+SMNPART GTA  T NW  HW+YW GP+LGGVAAALLY   + A  AP+++  A EKYR    D++EMR+L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_016930412.1|</Hit_id>
+  <Hit_def>aquaporin isoform X1 [Drosophila suzukii]</Hit_def>
+  <Hit_accession>XP_016930412</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>2.94099e-56</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>KTHNLWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAFAAPEIDSHA</Hsp_qseq>
+      <Hsp_hseq>ENKKIWRMLLGELVGTFFLVFVGVGSTTSGSV-------------------PQI-------------AFTFGLTVATIAQGLGHLSGCHINPAVTLGFLIVGEISILKAAFYIIVQCVGAIAGAAVIKVALNGVAGAD---LGVSSFDPSLDSAQAVLIEALITFILVFVVKAVSDSGRQDIKGSAPLAVGLAITAGHLCAVKLSGASMNPARSFGPAVVQGVWTYHWVYWVGPIAGGLLAGILYRFIFKVRKGDDEA</Hsp_hseq>
+      <Hsp_midline>+   +W+ +L E +G F L F    + T  +                    P+I             A  FGL+V   A  +GH+SGCHINPAVT+G L  G++S+L+A FYI+ QC GA AG A +   ++GVAGA    LG +S    +   Q +  E  + F+LV VV  V+D  + D +  APLA+GL +T GHL  V  +G+SMNPAR+FG A++ G W +HW+YW GPI GG+ A +LY   F   + D  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_036669236.1|</Hit_id>
+  <Hit_def>aquaporin isoform X2 [Drosophila suzukii]</Hit_def>
+  <Hit_accession>XP_036669236</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>4.1426e-56</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>KTHNLWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAFAAPEIDSHA</Hsp_qseq>
+      <Hsp_hseq>ENKKIWRMLLGELVGTFFLVFVGVGSTTSGSV-------------------PQI-------------AFTFGLTVATIAQGLGHLSGCHINPAVTLGFLIVGEISILKAAFYIIVQCVGAIAGAAVIKVALNGVAGAD---LGVSSFDPSLDSAQAVLIEALITFILVFVVKAVSDSGRQDIKGSAPLAVGLAITAGHLCAVKLSGASMNPARSFGPAVVQGVWTYHWVYWVGPIAGGLLAGILYRFIFKVRKGDDEA</Hsp_hseq>
+      <Hsp_midline>+   +W+ +L E +G F L F    + T  +                    P+I             A  FGL+V   A  +GH+SGCHINPAVT+G L  G++S+L+A FYI+ QC GA AG A +   ++GVAGA    LG +S    +   Q +  E  + F+LV VV  V+D  + D +  APLA+GL +T GHL  V  +G+SMNPAR+FG A++ G W +HW+YW GPI GG+ A +LY   F   + D  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_037300778.1|</Hit_id>
+  <Hit_def>aquaporin AQPAe.a isoform X3 [Manduca sexta]</Hit_def>
+  <Hit_accession>XP_037300778</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>1.74192e-53</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>LSAKTHN--LWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLN-ALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAF</Hsp_qseq>
+      <Hsp_hseq>LSEVTDNKLIWRQLIAELAGTFLLTSIGVASC--------------ITIAE--SNVPQTVT----------IALCFGLLVASIVQAIGHVSGGHINPAVTAGLFVSGDIRLLKAIFYIVVQSLGAIAGAAFIRLAIPENRVG----GFGLTKPGPGITDPQALLIEALITFVLVLVVMGVCDGRRADLKGSAPLAIGLSITACHAAVIPFTGSSMNPARSFGPALVLGDWTSHWVYWVGPLIGGVVAGALYRFIF</Hsp_hseq>
+      <Hsp_midline>LS  T N  +W+ ++AE  G F+L     A+C              ITI    ++ P+ V           IAL FGL V      IGH+SG HINPAVT GL  +G + +L+A+FYIV Q  GA AG A +  A+     G    G G T    G+++ Q L  E  + FVLVLVV GV D  + D +  APLAIGL++T  H   + +TGSSMNPAR+FG AL+ G+W  HW+YW GP++GGV A  LY   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_037300777.1|</Hit_id>
+  <Hit_def>aquaporin AQPAe.a isoform X2 [Manduca sexta]</Hit_def>
+  <Hit_accession>XP_037300777</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>1.74733e-53</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>LSAKTHN--LWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLN-ALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAF</Hsp_qseq>
+      <Hsp_hseq>LSEVTDNKLIWRQLIAELAGTFLLTSIGVASC--------------ITI-----------AESNVPQTVT-IALCFGLLVASIVQAIGHVSGGHINPAVTAGLFVSGDIRLLKAIFYIVVQSLGAIAGAAFIRLAIPENRVG----GFGLTKPGPGITDPQALLIEALITFVLVLVVMGVCDGRRADLKGSAPLAIGLSITACHAAVIPFTGSSMNPARSFGPALVLGDWTSHWVYWVGPLIGGVVAGALYRFIF</Hsp_hseq>
+      <Hsp_midline>LS  T N  +W+ ++AE  G F+L     A+C              ITI           AE+     +T IAL FGL V      IGH+SG HINPAVT GL  +G + +L+A+FYIV Q  GA AG A +  A+     G    G G T    G+++ Q L  E  + FVLVLVV GV D  + D +  APLAIGL++T  H   + +TGSSMNPAR+FG AL+ G+W  HW+YW GP++GGV A  LY   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|XP_037300776.1|</Hit_id>
+  <Hit_def>aquaporin AQPAe.a isoform X1 [Manduca sexta]</Hit_def>
+  <Hit_accession>XP_037300776</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>1.99176e-53</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>LSAKTHN--LWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLN-ALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAF</Hsp_qseq>
+      <Hsp_hseq>LSEVTDNKLIWRQLIAELAGTFLLTSIGVASC--------------ITI-----------AESNVPQTVT-IALCFGLLVASIVQAIGHVSGGHINPAVTAGLFVSGDIRLLKAIFYIVVQSLGAIAGAAFIRLAIPENRVG----GFGLTKPGPGITDPQALLIEALITFVLVLVVMGVCDGRRADLKGSAPLAIGLSITACHAAVIPFTGSSMNPARSFGPALVLGDWTSHWVYWVGPLIGGVVAGALYRFIF</Hsp_hseq>
+      <Hsp_midline>LS  T N  +W+ ++AE  G F+L     A+C              ITI           AE+     +T IAL FGL V      IGH+SG HINPAVT GL  +G + +L+A+FYIV Q  GA AG A +  A+     G    G G T    G+++ Q L  E  + FVLVLVV GV D  + D +  APLAIGL++T  H   + +TGSSMNPAR+FG AL+ G+W  HW+YW GP++GGV A  LY   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_037300780.1|</Hit_id>
+  <Hit_def>aquaporin AQPAe.a isoform X5 [Manduca sexta]</Hit_def>
+  <Hit_accession>XP_037300780</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.637</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>2.63899e-53</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>LSAKTHN--LWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLN-ALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAF</Hsp_qseq>
+      <Hsp_hseq>LSEVTDNKLIWRQLIAELAGTFLLTSIGVASC--------------ITIAE--SNVPQTVT----------IALCFGLLVASIVQAIGHVSGGHINPAVTAGLFVSGDIRLLKAIFYIVVQSLGAIAGAAFIRLAIPENRVG----GFGLTKPGPGITDPQALLIEALITFVLVLVVMGVCDGRRADLKGSAPLAIGLSITACHAAVIPFTGSSMNPARSFGPALVLGDWTSHWVYWVGPLIGGVVAGALYRFIF</Hsp_hseq>
+      <Hsp_midline>LS  T N  +W+ ++AE  G F+L     A+C              ITI    ++ P+ V           IAL FGL V      IGH+SG HINPAVT GL  +G + +L+A+FYIV Q  GA AG A +  A+     G    G G T    G+++ Q L  E  + FVLVLVV GV D  + D +  APLAIGL++T  H   + +TGSSMNPAR+FG AL+ G+W  HW+YW GP++GGV A  LY   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_037300781.1|</Hit_id>
+  <Hit_def>aquaporin AQPAe.a isoform X6 [Manduca sexta]</Hit_def>
+  <Hit_accession>XP_037300781</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.866</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>4.35565e-53</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>LSAKTHN--LWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLN-ALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAF</Hsp_qseq>
+      <Hsp_hseq>LSEVTDNKLIWRQLIAELAGTFLLTSIGVASC--------------ITIAE--SNVPQTVT----------IALCFGLLVASIVQAIGHVSGGHINPAVTAGLFVSGDIRLLKAIFYIVVQSLGAIAGAAFIRLAIPENRVG----GFGLTKPGPGITDPQALLIEALITFVLVLVVMGVCDGRRADLKGSAPLAIGLSITACHAAVIPFTGSSMNPARSFGPALVLGDWTSHWVYWVGPLIGGVVAGALYRFIF</Hsp_hseq>
+      <Hsp_midline>LS  T N  +W+ ++AE  G F+L     A+C              ITI    ++ P+ V           IAL FGL V      IGH+SG HINPAVT GL  +G + +L+A+FYIV Q  GA AG A +  A+     G    G G T    G+++ Q L  E  + FVLVLVV GV D  + D +  APLAIGL++T  H   + +TGSSMNPAR+FG AL+ G+W  HW+YW GP++GGV A  LY   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_037300779.1|</Hit_id>
+  <Hit_def>aquaporin AQPAe.a isoform X4 [Manduca sexta]</Hit_def>
+  <Hit_accession>XP_037300779</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.252</Hsp_bit-score>
+      <Hsp_score>443</Hsp_score>
+      <Hsp_evalue>4.74253e-53</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>LSAKTHN--LWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLN-ALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAF</Hsp_qseq>
+      <Hsp_hseq>LSEVTDNKLIWRQLIAELAGTFLLTSIGVASC--------------ITIAES--NVPQTVT----------IALCFGLLVASIVQAIGHVSGGHINPAVTAGLFVSGDIRLLKAIFYIVVQSLGAIAGAAFIRLAIPENRVG----GFGLTKPGPGITDPQALLIEALITFVLVLVVMGVCDGRRADLKGSAPLAIGLSITACHAAVIPFTGSSMNPARSFGPALVLGDWTSHWVYWVGPLIGGVVAGALYRFIF</Hsp_hseq>
+      <Hsp_midline>LS  T N  +W+ ++AE  G F+L     A+C              ITI  +  + P+ V           IAL FGL V      IGH+SG HINPAVT GL  +G + +L+A+FYIV Q  GA AG A +  A+     G    G G T    G+++ Q L  E  + FVLVLVV GV D  + D +  APLAIGL++T  H   + +TGSSMNPAR+FG AL+ G+W  HW+YW GP++GGV A  LY   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_029346918.1|</Hit_id>
+  <Hit_def>aquaporin AQPAe.a-like isoform X3 [Acyrthosiphon pisum]</Hit_def>
+  <Hit_accession>XP_029346918</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>2.32539e-48</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>AKTHNLWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGV</Hsp_qseq>
+      <Hsp_hseq>SDNNKIWRMLFAEFLGTAILLFLGCGS---------------IMWLNGSTNSSDILA----------ISLTFGFTIATLVQIFGQTSGCHINPAVTVSFLVSGQCSFLKSALYIAAQCLGAIAGIYLLEFVT---PDAVTKGLGKTDINTLLQPGQGFVVEAFITFILVLVIHSVCDEANRSNIVTPSISIGLTIAAAHLAAIKYTGASMNPARSLGPAVALGSWSNHWVYWVGPIVGGI</Hsp_hseq>
+      <Hsp_midline>+  + +W+ + AEF+G  IL F  C +               I  L   T+S +I+A          I+L FG ++       G  SGCHINPAVTV  L +G+ S L++  YI AQC GA AG+  L  +      A  +GLG T ++  +   QG   E F+ F+LVLV+  V DE    +     ++IGLT+   HL  + YTG+SMNPAR+ G A+  G+W +HW+YW GPI+GG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_029346917.1|</Hit_id>
+  <Hit_def>aquaporin AQPAe.a-like isoform X3 [Acyrthosiphon pisum]</Hit_def>
+  <Hit_accession>XP_029346917</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>2.32539e-48</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>AKTHNLWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGV</Hsp_qseq>
+      <Hsp_hseq>SDNNKIWRMLFAEFLGTAILLFLGCGS---------------IMWLNGSTNSSDILA----------ISLTFGFTIATLVQIFGQTSGCHINPAVTVSFLVSGQCSFLKSALYIAAQCLGAIAGIYLLEFVT---PDAVTKGLGKTDINTLLQPGQGFVVEAFITFILVLVIHSVCDEANRSNIVTPSISIGLTIAAAHLAAIKYTGASMNPARSLGPAVALGSWSNHWVYWVGPIVGGI</Hsp_hseq>
+      <Hsp_midline>+  + +W+ + AEF+G  IL F  C +               I  L   T+S +I+A          I+L FG ++       G  SGCHINPAVTV  L +G+ S L++  YI AQC GA AG+  L  +      A  +GLG T ++  +   QG   E F+ F+LVLV+  V DE    +     ++IGLT+   HL  + YTG+SMNPAR+ G A+  G+W +HW+YW GPI+GG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|NP_001139376.1|</Hit_id>
+  <Hit_def>aquaporin isoform 1 [Acyrthosiphon pisum]</Hit_def>
+  <Hit_accession>NP_001139376</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>3.0653e-48</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>AKTHNLWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGV</Hsp_qseq>
+      <Hsp_hseq>SDNNKIWRMLFAEFLGTAILLFLGCGS---------------IMWLNGSTNSSDILA----------ISLTFGFTIATLVQIFGQTSGCHINPAVTVSFLVSGQCSFLKSALYIAAQCLGAIAGIYLLEFVT---PDAVTKGLGKTDINTLLQPGQGFVVEAFITFILVLVIHSVCDEANRSNIVTPSISIGLTIAAAHLAAIKYTGASMNPARSLGPAVALGSWSNHWVYWVGPIVGGI</Hsp_hseq>
+      <Hsp_midline>+  + +W+ + AEF+G  IL F  C +               I  L   T+S +I+A          I+L FG ++       G  SGCHINPAVTV  L +G+ S L++  YI AQC GA AG+  L  +      A  +GLG T ++  +   QG   E F+ F+LVLV+  V DE    +     ++IGLT+   HL  + YTG+SMNPAR+ G A+  G+W +HW+YW GPI+GG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_029346916.1|</Hit_id>
+  <Hit_def>aquaporin AQPAe.a-like isoform X2 [Acyrthosiphon pisum]</Hit_def>
+  <Hit_accession>XP_029346916</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>3.06776e-48</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>AKTHNLWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGV</Hsp_qseq>
+      <Hsp_hseq>SDNNKIWRMLFAEFLGTAILLFLGCGS---------------IMWLNGSTNSSDILA----------ISLTFGFTIATLVQIFGQTSGCHINPAVTVSFLVSGQCSFLKSALYIAAQCLGAIAGIYLLEFVT---PDAVTKGLGKTDINTLLQPGQGFVVEAFITFILVLVIHSVCDEANRSNIVTPSISIGLTIAAAHLAAIKYTGASMNPARSLGPAVALGSWSNHWVYWVGPIVGGI</Hsp_hseq>
+      <Hsp_midline>+  + +W+ + AEF+G  IL F  C +               I  L   T+S +I+A          I+L FG ++       G  SGCHINPAVTV  L +G+ S L++  YI AQC GA AG+  L  +      A  +GLG T ++  +   QG   E F+ F+LVLV+  V DE    +     ++IGLT+   HL  + YTG+SMNPAR+ G A+  G+W +HW+YW GPI+GG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|NP_001139377.1|</Hit_id>
+  <Hit_def>aquaporin isoform 2 [Acyrthosiphon pisum]</Hit_def>
+  <Hit_accession>NP_001139377</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>3.06776e-48</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>AKTHNLWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGV</Hsp_qseq>
+      <Hsp_hseq>SDNNKIWRMLFAEFLGTAILLFLGCGS---------------IMWLNGSTNSSDILA----------ISLTFGFTIATLVQIFGQTSGCHINPAVTVSFLVSGQCSFLKSALYIAAQCLGAIAGIYLLEFVT---PDAVTKGLGKTDINTLLQPGQGFVVEAFITFILVLVIHSVCDEANRSNIVTPSISIGLTIAAAHLAAIKYTGASMNPARSLGPAVALGSWSNHWVYWVGPIVGGI</Hsp_hseq>
+      <Hsp_midline>+  + +W+ + AEF+G  IL F  C +               I  L   T+S +I+A          I+L FG ++       G  SGCHINPAVTV  L +G+ S L++  YI AQC GA AG+  L  +      A  +GLG T ++  +   QG   E F+ F+LVLV+  V DE    +     ++IGLT+   HL  + YTG+SMNPAR+ G A+  G+W +HW+YW GPI+GG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_008186625.1|</Hit_id>
+  <Hit_def>aquaporin AQPAe.a-like isoform X1 [Acyrthosiphon pisum]</Hit_def>
+  <Hit_accession>XP_008186625</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>3.37594e-48</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>AKTHNLWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGV</Hsp_qseq>
+      <Hsp_hseq>SDNNKIWRMLFAEFLGTAILLFLGCGS---------------IMWLNGSTNSSDILA----------ISLTFGFTIATLVQIFGQTSGCHINPAVTVSFLVSGQCSFLKSALYIAAQCLGAIAGIYLLEFVT---PDAVTKGLGKTDINTLLQPGQGFVVEAFITFILVLVIHSVCDEANRSNIVTPSISIGLTIAAAHLAAIKYTGASMNPARSLGPAVALGSWSNHWVYWVGPIVGGI</Hsp_hseq>
+      <Hsp_midline>+  + +W+ + AEF+G  IL F  C +               I  L   T+S +I+A          I+L FG ++       G  SGCHINPAVTV  L +G+ S L++  YI AQC GA AG+  L  +      A  +GLG T ++  +   QG   E F+ F+LVLV+  V DE    +     ++IGLT+   HL  + YTG+SMNPAR+ G A+  G+W +HW+YW GPI+GG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_037300530.1|</Hit_id>
+  <Hit_def>aquaporin AQPAn.G-like [Manduca sexta]</Hit_def>
+  <Hit_accession>XP_037300530</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>7.72748e-47</Hsp_evalue>
+      <Hsp_query-from>88</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>SVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLN-ALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAF</Hsp_qseq>
+      <Hsp_hseq>ALYIWNTAIGHVSGGHINPAVTAGLFVSGDIRLLKAIFYIVVQSLGAIAGAAFIRLAIPENRVG----GFGLTKPGPGITDPQALLIEALITFVLVLVVMGVCDGRRADLKGSAPLAIGLSITACHAAVIPFTGSSMNPARSFGPALVLGDWTSHWVYWVGPLIGGVVAGALYRFIF</Hsp_hseq>
+      <Hsp_midline>++++    IGH+SG HINPAVT GL  +G + +L+A+FYIV Q  GA AG A +  A+     G    G G T    G+++ Q L  E  + FVLVLVV GV D  + D +  APLAIGL++T  H   + +TGSSMNPAR+FG AL+ G+W  HW+YW GP++GGV A  LY   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_016929660.1|</Hit_id>
+  <Hit_def>aquaporin AQPcic [Drosophila suzukii]</Hit_def>
+  <Hit_accession>XP_016929660</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>1.62625e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>279</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MTMKYTLGANELSAKTHNLWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALV--SGVAGA-GPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAFAA-PEIDSHAPE-KYRQV</Hsp_qseq>
+      <Hsp_hseq>LTARWRLAGSHRSALA-----SFFGEFVATAVFVFVACMGCV---------------------ETP------VFQNSHFRSGLTFGLAILIAVQCFGSVSGAHLNPAITLAAWLYGAIGWKKAIAYFVAQAAGALIGYGILVAVLPESSIKGVDNPAGVCVTVLAPEISELQGVFIEFLITCCLVMVACSVWDPRNVKFQDSVPVRFGLTVSCLILTAGLFTGASMNPTRSLGPAVWNNSWAHHWIYWVGPLVAGAVTSLIYKMAFKGDEEIDLRSSDAKIRMI</Hsp_hseq>
+      <Hsp_midline>+T ++ L  +  SA       S   EF+   +  F +C  C                      ++P      +F N      L FGL++ +A    G +SG H+NPA+T+     G +   +A+ Y VAQ AGA  G   L A++  S + G   P G+  T L+  +SE QG+  EF +   LV+V   V D      +   P+  GLTV+   L    +TG+SMNP R+ G A+   +W HHWIYW GP++ G   +L+Y +AF    EID  + + K R +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_016929659.1|</Hit_id>
+  <Hit_def>aquaporin isoform X2 [Drosophila suzukii]</Hit_def>
+  <Hit_accession>XP_016929659</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>1.63046e-32</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>286</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>ILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVSGVA---GAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAF--AAPEIDSHAPEKYRQVQTDDKEM</Hsp_qseq>
+      <Hsp_hseq>VLAEMIATAMLMFLGCMGCVQ---------------------------NSVFTNSNFQSAVNFGFVVLICIQCFGCVCGAHLNPAVTLATYVYNMISLPMALAYFVAQMVGAFIGYGLLKSVLPESAIYSSDTPNGVCLTSLNSTLTSWQGLAVEFLITCVLISICCGVWDPRNATKQDSVPVRFGLAIACLSLTAGQLTGASMNPARSFAPAIWNGAWDNHWIYWVGPMAAALVTSVIYKYAFRREVEDLDEVDETTMSTKRTSEAEL</Hsp_hseq>
+      <Hsp_midline>+LAE I   +L F  C  C Q                            ++F N     A+ FG  V +     G + G H+NPAVT+       +S+  A+ Y VAQ  GA  G   L +++   A      P G+  TSL+  ++ +QGL  EF +  VL+ +  GV D      +   P+  GL +    L     TG+SMNPAR+F  A+  G W++HWIYW GP+   +  +++Y  AF     ++D          +T + E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_016929658.1|</Hit_id>
+  <Hit_def>aquaporin isoform X1 [Drosophila suzukii]</Hit_def>
+  <Hit_accession>XP_016929658</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>2.03562e-32</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>ILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVSGVA---GAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAF</Hsp_qseq>
+      <Hsp_hseq>VLAEMIATAMLMFLGCMGCVQ---------------------------NSVFTNSNFQSAVNFGFVVLICIQCFGCVCGAHLNPAVTLATYVYNMISLPMALAYFVAQMVGAFIGYGLLKSVLPESAIYSSDTPNGVCLTSLNSTLTSWQGLAVEFLITCVLISICCGVWDPRNATKQDSVPVRFGLAIACLSLTAGQLTGASMNPARSFAPAIWNGAWDNHWIYWVGPMAAALVTSVIYKYAF</Hsp_hseq>
+      <Hsp_midline>+LAE I   +L F  C  C Q                            ++F N     A+ FG  V +     G + G H+NPAVT+       +S+  A+ Y VAQ  GA  G   L +++   A      P G+  TSL+  ++ +QGL  EF +  VL+ +  GV D      +   P+  GL +    L     TG+SMNPAR+F  A+  G W++HWIYW GP+   +  +++Y  AF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_030025577.1|</Hit_id>
+  <Hit_def>aquaporin [Manduca sexta]</Hit_def>
+  <Hit_accession>XP_030025577</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>6.71649e-31</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>GANELSAKTHNLWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAG------VASLNALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLY</Hsp_qseq>
+      <Hsp_hseq>GLNAICAWCSEQWRAILAEFVSTMLLIVFGCMACIP------LDGF---------TPQPPLYGP-----------LGFGLTVSFNIQIFGHISGAHMNPAVTLAAVIWGSMSITLALAYALAQCIGAIVGYGILVAVAPINVLPIGVCLTMPHA-GHTLI-------QALGVEMVLTAALSFINCACWDPVNAQKQESVAIKFGLAIAGLSIAGGPLTGASMNPARSLGPALWTSGWYAHWVYWVGPCVGSALAAFIY</Hsp_hseq>
+      <Hsp_midline>G N + A     W++ILAEF+   +L  F C AC        +D +         T  P +              L FGL+V       GHISG H+NPAVT+  +  G +S+  A+ Y +AQC GA  G      VA +N L  GV    P   GHT +       Q LG E  L   L  +     D      +    +  GL +    +     TG+SMNPAR+ G AL T  W  HW+YW GP +G   AA +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|XP_030035692.1|</Hit_id>
+  <Hit_def>aquaporin AQPcic [Manduca sexta]</Hit_def>
+  <Hit_accession>XP_030035692</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>1.42561e-27</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>TLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAFA-----APEIDSHAPEKYRQVQTDDKEMRRLNA</Hsp_qseq>
+      <Hsp_hseq>THSALAAGFVVAMLVQCFDHISGAQMNPTVTLASMVWGRVSGARGLAMMAAQLAGATLGGAALHLLQPADTPA----LCVTAPAPHLSVYKAVALEAVLGGCLALANCASWDERNLHLRDSWPLRVGVSVAAMSLVAGDLTGASMNPVRSFAPALWSGVWQHHWVYWAGPLSGSALSTALYVAVWRPRPTHAPHA-SHAPRPPRAAHV-RRSMDSLDA</Hsp_hseq>
+      <Hsp_midline>T  ALA G  V M      HISG  +NP VT+  +  G+VS  R +  + AQ AGA  G A+L+ L      A    L  T+ +  +S ++ +  E  LG  L L      DE     R   PL +G++V    L     TG+SMNP R+F  AL +G W+HHW+YWAGP+ G   +  LYV  +      AP   SHAP   R      + M  L+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_016925824.1|</Hit_id>
+  <Hit_def>neurogenic protein big brain [Drosophila suzukii]</Hit_def>
+  <Hit_accession>XP_016925824</Hit_accession>
+  <Hit_len>700</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>2.88612e-27</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>KTHNLWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVSGVAGAGPRG--LGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLA--IGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAF</Hsp_qseq>
+      <Hsp_hseq>RTLEFWRSIISECLASFMYVFIVCGAAAGVGVGASVSSVLLATALASG------------------LAMATLTQCFL------HISGAHINPAVTLALCVVRSISPIRAAMYITAQCGGGIAGA----ALLYGVTVPGYQGNLQAAISQSAALAAWERFGVEFILTFLVVLCYFVSTD---PMKKFMGNSAASIGCAYSACCFVSMPY----LNPARSLGPSFVLNKWDSHWVYWFGPLVGGMASGLVYEYIF</Hsp_hseq>
+      <Hsp_midline>+T   W+SI++E +  F+  F  C A         + +    T LA+G                  +A+A     F+      HISG HINPAVT+ L     +S +RA  YI AQC G  AG     AL+ GV   G +G      S S  ++ ++  G EF L F++VL  F  TD   P  +F+   A  IG   +     ++ Y    +NPAR+ G + +   W+ HW+YW GP++GG+A+ L+Y   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|NP_001232971.1|</Hit_id>
+  <Hit_def>Aquaporin AQPcic-like [Acyrthosiphon pisum]</Hit_def>
+  <Hit_accession>NP_001232971</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>1.60985e-24</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>ALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVS-GVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDS-----RFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAFAAPEIDSH</Hsp_qseq>
+      <Hsp_hseq>AIAFAGIVAVTIVIIGHISNCHINPCVTLCALLLGKLPILTAIIYFLAEFLGAMIGYGVLVVISPYNILNSSESGVCVTSPVIGLTAWQALLIEAITTGVLILLVCAVWDPKSGNGDCGSLKFLA-MIFMTSVIVG-----PFTGNSLNPARSLAPAIYNNSWNMHWIYWVGPFSGTITSTLFYKYIFMALDNDER</Hsp_hseq>
+      <Hsp_midline>A+AF   V +  + IGHIS CHINP VT+  L  GK+ +L A+ Y +A+  GA  G   L  +    +  +   G+  TS  +G++ +Q L  E     VL+L+V  V D    +      +F+A +    +V +G      +TG+S+NPAR+   A+   +W  HWIYW GP  G + + L Y   F A + D  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_029346906.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC100168499 isoform X3 [Acyrthosiphon pisum]</Hit_def>
+  <Hit_accession>XP_029346906</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>1.64498e-24</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>ALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVS-GVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDS-----RFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAFAAPEIDSH</Hsp_qseq>
+      <Hsp_hseq>AIAFAGIVAVTIVIIGHISNCHINPCVTLCALLLGKLPILTAIIYFLAEFLGAMIGYGVLVVISPYNILNSSESGVCVTSPVIGLTAWQALLIEAITTGVLILLVCAVWDPKSGNGDCGSLKFLA-MIFMTSVIVG-----PFTGNSLNPARSLAPAIYNNSWNMHWIYWVGPFSGTITSTLFYKYIFMALDNDER</Hsp_hseq>
+      <Hsp_midline>A+AF   V +  + IGHIS CHINP VT+  L  GK+ +L A+ Y +A+  GA  G   L  +    +  +   G+  TS  +G++ +Q L  E     VL+L+V  V D    +      +F+A +    +V +G      +TG+S+NPAR+   A+   +W  HWIYW GP  G + + L Y   F A + D  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_008179393.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC100168499 isoform X4 [Acyrthosiphon pisum]</Hit_def>
+  <Hit_accession>XP_008179393</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>1.91967e-24</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>ALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVS-GVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDS-----RFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAFAAPEIDSH</Hsp_qseq>
+      <Hsp_hseq>AIAFAGIVAVTIVIIGHISNCHINPCVTLCALLLGKLPILTAIIYFLAEFLGAMIGYGVLVVISPYNILNSSESGVCVTSPVIGLTAWQALLIEAITTGVLILLVCAVWDPKSGNGDCGSLKFLA-MIFMTSVIVG-----PFTGNSLNPARSLAPAIYNNSWNMHWIYWVGPFSGTITSTLFYKYIFMALDNDER</Hsp_hseq>
+      <Hsp_midline>A+AF   V +  + IGHIS CHINP VT+  L  GK+ +L A+ Y +A+  GA  G   L  +    +  +   G+  TS  +G++ +Q L  E     VL+L+V  V D    +      +F+A +    +V +G      +TG+S+NPAR+   A+   +W  HWIYW GP  G + + L Y   F A + D  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_029346905.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC100168499 isoform X1 [Acyrthosiphon pisum]</Hit_def>
+  <Hit_accession>XP_029346905</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>2.00855e-24</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>ALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVS-GVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDS-----RFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAFAAPEIDSH</Hsp_qseq>
+      <Hsp_hseq>AIAFAGIVAVTIVIIGHISNCHINPCVTLCALLLGKLPILTAIIYFLAEFLGAMIGYGVLVVISPYNILNSSESGVCVTSPVIGLTAWQALLIEAITTGVLILLVCAVWDPKSGNGDCGSLKFLA-MIFMTSVIVG-----PFTGNSLNPARSLAPAIYNNSWNMHWIYWVGPFSGTITSTLFYKYIFMALDNDER</Hsp_hseq>
+      <Hsp_midline>A+AF   V +  + IGHIS CHINP VT+  L  GK+ +L A+ Y +A+  GA  G   L  +    +  +   G+  TS  +G++ +Q L  E     VL+L+V  V D    +      +F+A +    +V +G      +TG+S+NPAR+   A+   +W  HWIYW GP  G + + L Y   F A + D  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_008179391.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC100168499 isoform X1 [Acyrthosiphon pisum]</Hit_def>
+  <Hit_accession>XP_008179391</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>2.00855e-24</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>ALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVS-GVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDS-----RFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAFAAPEIDSH</Hsp_qseq>
+      <Hsp_hseq>AIAFAGIVAVTIVIIGHISNCHINPCVTLCALLLGKLPILTAIIYFLAEFLGAMIGYGVLVVISPYNILNSSESGVCVTSPVIGLTAWQALLIEAITTGVLILLVCAVWDPKSGNGDCGSLKFLA-MIFMTSVIVG-----PFTGNSLNPARSLAPAIYNNSWNMHWIYWVGPFSGTITSTLFYKYIFMALDNDER</Hsp_hseq>
+      <Hsp_midline>A+AF   V +  + IGHIS CHINP VT+  L  GK+ +L A+ Y +A+  GA  G   L  +    +  +   G+  TS  +G++ +Q L  E     VL+L+V  V D    +      +F+A +    +V +G      +TG+S+NPAR+   A+   +W  HWIYW GP  G + + L Y   F A + D  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_008179394.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC100168499 isoform X5 [Acyrthosiphon pisum]</Hit_def>
+  <Hit_accession>XP_008179394</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>2.09322e-24</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>ALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVS-GVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDS-----RFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAFAAPEIDSH</Hsp_qseq>
+      <Hsp_hseq>AIAFAGIVAVTIVIIGHISNCHINPCVTLCALLLGKLPILTAIIYFLAEFLGAMIGYGVLVVISPYNILNSSESGVCVTSPVIGLTAWQALLIEAITTGVLILLVCAVWDPKSGNGDCGSLKFLA-MIFMTSVIVG-----PFTGNSLNPARSLAPAIYNNSWNMHWIYWVGPFSGTITSTLFYKYIFMALDNDER</Hsp_hseq>
+      <Hsp_midline>A+AF   V +  + IGHIS CHINP VT+  L  GK+ +L A+ Y +A+  GA  G   L  +    +  +   G+  TS  +G++ +Q L  E     VL+L+V  V D    +      +F+A +    +V +G      +TG+S+NPAR+   A+   +W  HWIYW GP  G + + L Y   F A + D  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_008179392.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC100168499 isoform X2 [Acyrthosiphon pisum]</Hit_def>
+  <Hit_accession>XP_008179392</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>6.1751e-24</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>ALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVS-GVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDS-----RFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAFAAPEIDSH</Hsp_qseq>
+      <Hsp_hseq>AIAFAGIVAVTIVIIGHISNCHINPCVTLCALLLGKLPILTAIIYFLAEFLGAMIGYGVLVVISPYNILNSSESGVCVTSPVIGLTAWQALLIEAITTGVLILLVCAVWDPKSGNGDCGSLKFLA-MIFMTSVIVG-----PFTGNSLNPARSLAPAIYNNSWNMHWIYWVGPFSGTITSTLFYKYIFMALDNDER</Hsp_hseq>
+      <Hsp_midline>A+AF   V +  + IGHIS CHINP VT+  L  GK+ +L A+ Y +A+  GA  G   L  +    +  +   G+  TS  +G++ +Q L  E     VL+L+V  V D    +      +F+A +    +V +G      +TG+S+NPAR+   A+   +W  HWIYW GP  G + + L Y   F A + D  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_016929661.1|</Hit_id>
+  <Hit_def>aquaporin AQPcic isoform X1 [Drosophila suzukii]</Hit_def>
+  <Hit_accession>XP_016929661</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>5.43481e-22</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>ELSAKTHNLWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVSG--VAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAFAAPEIDSH--APEKYRQVQ</Hsp_qseq>
+      <Hsp_hseq>KMKGSTLDKISAFLGELIGTGILVFLGCMGC---------------------------VSTEAFHNSHLQIVLNFGFAVLVAIQCFGCVSGAHLNPAVTVAAYIYDMVSLSMAFAYFAAQMLGAFIGYGLLMVLLPKDTLVGGG-HGLCVTVPHPSVLPGQAFGIEFVITSILIIVCCGVWDPRNSKFHDSVGIRFGLAIACLACAAGPFTGASMNPARSFAPALWNTNFQSNWIYWLAPLSASAITAYAYKVVFRREVVEAEITSNEKLRHLE</Hsp_hseq>
+      <Hsp_midline>++   T +   + L E IG  IL F  C  C                           V+   F N    I L FG +V +A    G +SG H+NPAVTV       VS+  A  Y  AQ  GA  G   L  L+    + G G  GL  T     V   Q  G EF +  +L++V  GV D           +  GL +         +TG+SMNPAR+F  AL   N++ +WIYW  P+      A  Y + F    +++   + EK R ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_016929662.1|</Hit_id>
+  <Hit_def>aquaporin AQPcic isoform X2 [Drosophila suzukii]</Hit_def>
+  <Hit_accession>XP_016929662</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>7.71459e-22</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>LSAKTHNLWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVSG--VAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAFAAPEIDSH--APEKYRQVQ</Hsp_qseq>
+      <Hsp_hseq>MKGSTLDKISAFLGELIGTGILVFLGCMGC---------------------------VSTEAFHNSHLQIVLNFGFAVLVAIQCFGCVSGAHLNPAVTVAAYIYDMVSLSMAFAYFAAQMLGAFIGYGLLMVLLPKDTLVGGG-HGLCVTVPHPSVLPGQAFGIEFVITSILIIVCCGVWDPRNSKFHDSVGIRFGLAIACLACAAGPFTGASMNPARSFAPALWNTNFQSNWIYWLAPLSASAITAYAYKVVFRREVVEAEITSNEKLRHLE</Hsp_hseq>
+      <Hsp_midline>+   T +   + L E IG  IL F  C  C                           V+   F N    I L FG +V +A    G +SG H+NPAVTV       VS+  A  Y  AQ  GA  G   L  L+    + G G  GL  T     V   Q  G EF +  +L++V  GV D           +  GL +         +TG+SMNPAR+F  AL   N++ +WIYW  P+      A  Y + F    +++   + EK R ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_030035693.1|</Hit_id>
+  <Hit_def>aquaporin AQPAe.a [Manduca sexta]</Hit_def>
+  <Hit_accession>XP_030035693</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>9.03645e-19</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>ENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVL---VVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTG-----SSMNPARTFGTALITGNWEHHWIYW</Hsp_qseq>
+      <Hsp_hseq>KGIHEIQLTHPALAFGFIVTGNAMIFGPASGAHMNPAVTLAAVVHGRMSALLALAYFVAQTAGALIGFGALLAMTPANAAQAPHGC--TAPGPNVSPLAAAAMEAVMTGLLALGCCAAWAAHDDARPDHTV--PIKLGLLVA----GLV-YSGGFLSAASLNPVRSLAPAVFHSFWQSHWVYW</Hsp_hseq>
+      <Hsp_midline>+ I    LT  ALAFG  V   AM  G  SG H+NPAVT+  +  G++S L A+ Y VAQ AGA  G  +L A+    A   P G   T+    VS       E  +  +L L     +   D+ +PD     P+ +GL V     G V Y+G     +S+NP R+   A+    W+ HW+YW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_037298713.1|</Hit_id>
+  <Hit_def>neurogenic protein big brain isoform X2 [Manduca sexta]</Hit_def>
+  <Hit_accession>XP_037298713</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>1.03121e-15</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>ELSAKTHNLWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNAL-VSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLY</Hsp_qseq>
+      <Hsp_hseq>RLEVRTLSLWKAVVAECAASFLYVFIVCGAAGGAGVGA------------------------SASAVLLSTALASGCAIATLTMCFANISGAHVNPAVSAALCVRRRVSPLRAALYVAAQCGGAIAGAAAIYGVSVPGYAGS----LSASLPGGGAAAWERLGAELVLSGLVAAAYFAAMERRWTGS---APALLGAAYCAASFVSM----PSLNPARSLGPSFVLSRWESHWVCWVGGLGGGVASALLH</Hsp_hseq>
+      <Hsp_midline> L  +T +LWK+++AE    F+  F  C A   A                              +  L   ALA G ++    M   +ISG H+NPAV+  L    +VS LRA  Y+ AQC GA AG A++  + V G AG+    L  +    G + ++ LG E  L  ++    F   +     S   AP  +G         ++     S+NPAR+ G + +   WE HW+ W G + GGVA+ALL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_037298712.1|</Hit_id>
+  <Hit_def>neurogenic protein big brain isoform X1 [Manduca sexta]</Hit_def>
+  <Hit_accession>XP_037298712</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>1.03121e-15</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>ELSAKTHNLWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNAL-VSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLY</Hsp_qseq>
+      <Hsp_hseq>RLEVRTLSLWKAVVAECAASFLYVFIVCGAAGGAGVGA------------------------SASAVLLSTALASGCAIATLTMCFANISGAHVNPAVSAALCVRRRVSPLRAALYVAAQCGGAIAGAAAIYGVSVPGYAGS----LSASLPGGGAAAWERLGAELVLSGLVAAAYFAAMERRWTGS---APALLGAAYCAASFVSM----PSLNPARSLGPSFVLSRWESHWVCWVGGLGGGVASALLH</Hsp_hseq>
+      <Hsp_midline> L  +T +LWK+++AE    F+  F  C A   A                              +  L   ALA G ++    M   +ISG H+NPAV+  L    +VS LRA  Y+ AQC GA AG A++  + V G AG+    L  +    G + ++ LG E  L  ++    F   +     S   AP  +G         ++     S+NPAR+ G + +   WE HW+ W G + GGVA+ALL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_001948407.1|</Hit_id>
+  <Hit_def>neurogenic protein big brain [Acyrthosiphon pisum]</Hit_def>
+  <Hit_accession>XP_001948407</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>1.47486e-15</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>283</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>KTHNLWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILANGTDSPEIVAENIFANDLTLIALAFGLSVFMAAMTIGHISGCHINPAVTVGLLAAGKVSVLRAVFYIVAQCAGAAAGVASLNALVSGVAGAGPRGLGHTSLSMGVSEFQGLGFEFFLGFVLVLVVFGVTDENKPDSRFIAPLAIGLTVTLGHLGTVSYTGSSMNPARTFGTALITGNWEHHWIYWAGPILGGVAAALLYVLAFAAPEIDSHAPEKYRQVQTDD</Hsp_qseq>
+      <Hsp_hseq>RTLELWRSVMAECLATFLYVAVVCGAATSDA-------------------SPVLGA-----------AAASGFTMLALTVCLQNVSGGHINPALTTAMLITRRISPVRAVMFIAAQCGGAVGGAAIIYSVSARNYFTSLYDLPNSS----TTPWQRFSLGLLLMFFIVFTYY-VTNNTFHKWTGTAATAIGAVYFACGLVAMPF----INPACAFGPALVMNHWDNHWVYWFGPGAGGIIAGVVYDLIF--------NPQK-RKATIDD</Hsp_hseq>
+      <Hsp_midline>+T  LW+S++AE +  F+     C A T  A                   SP + A           A A G ++    + + ++SG HINPA+T  +L   ++S +RAV +I AQC GA  G A + ++ +         L ++S     + +Q       L F +V   + VT+         A  AIG       L  + +    +NPA  FG AL+  +W++HW+YW GP  GG+ A ++Y L F         P+K R+   DD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>78301</Statistics_db-num>
+      <Statistics_db-len>48645558</Statistics_db-len>
+      <Statistics_hsp-len>108</Statistics_hsp-len>
+      <Statistics_eff-space>7354596150</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

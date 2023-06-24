@@ -1,0 +1,86 @@
+BLASTP 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: genome.faa
+           78,301 sequences; 48,645,558 total letters
+
+
+
+Query= ACD81863.1_LP07623p_Drosophila_melanogaster
+
+Length=286
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+XP_016930972.2 dentin sialophosphoprotein [Drosophila suzukii]        250        1e-79
+
+
+
+Query_1         1    MKVLTLILFTALVAVASGRPNGGWFGNFGSNWARRFGWGSGDDEIVQEQRWNSQNQWNPN  60
+XP_016930972.2  1    MKVLTLVLFTALVAVAVGRPNGGWFGNLGGSWAKTFGWGSDDSQNVQEQKWNGQNQWNGH  60
+
+Query_1         61   GNG--QGQWDGENGQGQSHGNNQGLGQGN-----------------GHGNNHHGHHGNSH  101
+XP_016930972.2  61   GNGQAQGQWNGGNGHGQWNGNNHGHGQSNENNHDHGHGNNHGHGNGHGNGHGNGHGNGHG  120
+
+Query_1         102  GHGNGQGHGGQRPPPPPPTDLPELTTEDDVVSTTDVTSPAEETTLAPEVPEESTSQAPEE  161
+XP_016930972.2  121  HDHGHGGHHPPPPPPPPTTDLP----EDDVASTTAVT----------EVPEDSTTQAPEE  166
+XP_016930972.2  243                                           ETTQAPEVPEESTTQEPDE  261
+XP_016930972.2  305                                            TTLAPEVPEDSTTQEPEE  322
+
+Query_1         162  ITTGSEEGSGSSEDT----------------------------TTLAPEVPEESTTQAPE  193
+XP_016930972.2  167  ITTGSEEGSGSTEE-----------------------------TTLAPEVPEESTSQAPE  197
+XP_016930972.2  262  TTTDSEDGSGSSDETTQAPEDTTTQEPEESTTDSEDGSGSSQVTTLAPEVPEDSTTQEPE  321
+XP_016930972.2  323  STTDSEDGSGSSNE-----------------------------TTQAPEDPEDSTTQEPE  353
+
+Query_1         194  ESTTDSEDGSGSED-TTQA---P---EETTTEEPEES-------------TSEAPEESSS  233
+XP_016930972.2  198  EVTTDSEDGSGSEE-TTQA---PADSEDSTTQGPEETTTDSDDGSGSSDETTQAP-----  248
+XP_016930972.2  322  ESTTDSEDGSGSSNETTQAPEDP---EDSTTQEPEES-------------TTDSEDGSGS  365
+XP_016930972.2  354  ESTTDSEDGSGSSNETTQAPEDP---EDSTTQNPEES-------------TTDSEDGSGS  397
+
+Query_1         234  --------EAPEESTTEEPEESTT----------------E-------------APVEST  256
+XP_016930972.2  249  --------EVPEESTTQEPDETTT----------------DSEDGSGSSDETTQAPEDTT  284
+XP_016930972.2  366  SNETTQAPEDPEDSTTQNPEESTTDSEDGSGSSNETTQAPE-------------DPEDST  412
+XP_016930972.2  398  SNETTQAPEDPEDSTTQEPEESTTDSEDGSGSSEVTTLAPE-------------VPEDST  444
+
+Query_1         257  SEAPEESTT----------------EAPEEST--SEAPEESTIDSSAV  286
+XP_016930972.2  285  TQEPEESTTDSEDGSGSSQVTTLAPEVPEDST--TQEPEESTTDS     327
+XP_016930972.2  413  TQEPEESTTDSEDGSGSSEVTTLAPEVPEDST--TQEPEESTTDS     455
+XP_016930972.2  445  TQEPEESTT----------------DSEDSTTQASEEPQDSTTDSSAA  476
+
+
+Lambda      K        H        a         alpha
+   0.296    0.119    0.340    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7153650900
+
+
+  Database: genome.faa
+    Posted date:  Jun 24, 2023  2:50 PM
+  Number of letters in database: 48,645,558
+  Number of sequences in database:  78,301
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

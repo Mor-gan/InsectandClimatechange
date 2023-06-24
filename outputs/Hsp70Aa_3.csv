@@ -1,0 +1,937 @@
+BLASTP 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: genome.faa
+           78,301 sequences; 48,645,558 total letters
+
+
+
+Query= AAX33487.1_Drosophila_melanogaster
+
+Length=642
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+XP_016926534.2 major heat shock 70 kDa protein Ba [Drosophila suz...  1287       0.0   
+XP_036673283.1 LOW QUALITY PROTEIN: heat shock protein 68 [Drosop...  1136       0.0   
+XP_030038133.2 heat shock protein 68 [Manduca sexta]                  1070       0.0   
+XP_037294571.1 heat shock protein 68-like [Manduca sexta]             1069       0.0   
+XP_037301452.1 heat shock protein 68-like [Manduca sexta]             1068       0.0   
+XP_030032651.1 heat shock protein 68 [Manduca sexta]                  1068       0.0   
+XP_030034373.2 heat shock protein 68 [Manduca sexta]                  1046       0.0   
+XP_030035393.1 heat shock protein 68-like [Manduca sexta]             1045       0.0   
+XP_001951915.1 heat shock protein 68-like [Acyrthosiphon pisum]       1039       0.0   
+XP_008190051.1 heat shock protein 68-like [Acyrthosiphon pisum]       1036       0.0   
+XP_001945786.2 heat shock protein 70 A1-like [Acyrthosiphon pisum]    1035       0.0   
+XP_001949837.1 heat shock protein 70 B2 [Acyrthosiphon pisum]         1030       0.0   
+XP_016941530.2 heat shock 70 kDa protein cognate 2 [Drosophila su...  1013       0.0   
+XP_030028765.1 heat shock 70 kDa protein cognate 4 [Manduca sexta]    988        0.0   
+XP_001951207.1 heat shock 70 kDa protein cognate 4 [Acyrthosiphon...  969        0.0   
+XP_016933935.1 heat shock 70 kDa protein cognate 1 [Drosophila su...  966        0.0   
+XP_016933934.1 heat shock 70 kDa protein cognate 1 [Drosophila su...  966        0.0   
+XP_003244048.1 heat shock 70 kDa protein cognate 4 [Acyrthosiphon...  966        0.0   
+XP_016923486.2 LOW QUALITY PROTEIN: heat shock 70 kDa protein cog...  959        0.0   
+XP_030020254.2 LOW QUALITY PROTEIN: heat shock protein 68 [Manduc...  947        0.0   
+XP_003248918.1 heat shock protein 68-like, partial [Acyrthosiphon...  800        0.0   
+XP_016923990.1 endoplasmic reticulum chaperone BiP [Drosophila su...  746        0.0   
+XP_016923989.1 endoplasmic reticulum chaperone BiP [Drosophila su...  746        0.0   
+XP_016923987.1 endoplasmic reticulum chaperone BiP [Drosophila su...  746        0.0   
+XP_037300573.1 LOW QUALITY PROTEIN: endoplasmic reticulum chapero...  744        0.0   
+XP_030033394.1 endoplasmic reticulum chaperone BiP isoform X1 [Ma...  744        0.0   
+XP_037300572.1 endoplasmic reticulum chaperone BiP isoform X2 [Ma...  743        0.0   
+XP_008184380.1 heat shock protein cognate 3 isoform X1 [Acyrthosi...  743        0.0   
+NP_001156420.1 heat shock protein cognate 3 precursor [Acyrthosip...  743        0.0   
+XP_037303050.1 heat shock protein 68 [Manduca sexta]                  714        0.0   
+XP_001950499.3 stress-70 protein, mitochondrial [Acyrthosiphon pi...  563        0.0   
+XP_016929350.1 heat shock 70 kDa protein cognate 5 [Drosophila su...  560        0.0   
+XP_037299096.1 heat shock 70 kDa protein cognate 5 [Manduca sexta]    555        0.0   
+XP_037292797.1 major heat shock 70 kDa protein Ab-like [Manduca s...  448        5e-155
+XP_001951792.1 heat shock 70 kDa protein 4 [Acyrthosiphon pisum]      308        5e-94 
+XP_030032473.1 97 kDa heat shock protein isoform X4 [Manduca sexta]   305        1e-92 
+XP_030032471.1 97 kDa heat shock protein isoform X2 [Manduca sexta]   301        3e-91 
+XP_030032472.1 97 kDa heat shock protein isoform X3 [Manduca sexta]   301        4e-91 
+XP_037297358.1 97 kDa heat shock protein isoform X1 [Manduca sexta]   301        6e-91 
+XP_016934076.1 heat shock 70 kDa protein 4 isoform X2 [Drosophila...  299        2e-90 
+XP_036672308.1 heat shock 70 kDa protein 4 isoform X1 [Drosophila...  279        9e-83 
+XP_016934075.1 heat shock 70 kDa protein 4 isoform X1 [Drosophila...  279        9e-83 
+XP_016934074.1 heat shock 70 kDa protein 4 isoform X1 [Drosophila...  279        9e-83 
+XP_016934073.1 heat shock 70 kDa protein 4 isoform X1 [Drosophila...  279        9e-83 
+XP_003248625.2 heat shock 70 kDa protein cognate 4 [Acyrthosiphon...  211        6e-64 
+XP_001945768.2 heat shock 70 kDa protein 14 [Acyrthosiphon pisum]     203        1e-57 
+XP_036676745.1 hypoxia up-regulated protein 1 [Drosophila suzukii]    194        6e-52 
+XP_016939207.1 hypoxia up-regulated protein 1 [Drosophila suzukii]    194        6e-52 
+XP_016939206.1 hypoxia up-regulated protein 1 [Drosophila suzukii]    194        6e-52 
+XP_008183133.1 hypoxia up-regulated protein 1 isoform X2 [Acyrtho...  191        7e-51 
+XP_030037218.2 hypoxia up-regulated protein 1 [Manduca sexta]         191        7e-51 
+XP_001946466.2 hypoxia up-regulated protein 1 isoform X1 [Acyrtho...  190        2e-50 
+XP_030038840.1 heat shock 70 kDa protein 14 [Manduca sexta]           181        9e-50 
+XP_029345877.1 LOW QUALITY PROTEIN: heat shock protein 70 A1 [Acy...  174        3e-49 
+XP_016934537.1 heat shock 70 kDa protein 14 [Drosophila suzukii]      171        1e-45 
+XP_003241290.2 hypoxia up-regulated protein 1-like isoform X1 [Ac...  174        4e-45 
+XP_016656095.1 hypoxia up-regulated protein 1-like isoform X2 [Ac...  128        2e-30 
+XP_016656094.1 hypoxia up-regulated protein 1-like isoform X2 [Ac...  128        2e-30 
+
+
+
+Query_1         1    MPAIGIDLGTTYSCVG-VY-QHG-KVEIIA-NDQGNRTTPSYVAFT-D-SERLIGDPAKN  54
+XP_016926534.2  1    ................-..-...-......-...............-.-.......A...  54
+XP_036673283.1  1    ................-.F-...-......-...............-.-.......A...  54
+XP_030038133.2  1    ................-.W-..S-N.....-...............-.-T......A...  54
+XP_037294571.1  1    ................-.W-..S-N.....-...............-.-T......A...  54
+XP_037301452.1  1    ................-.W-..S-N.....-...............-.-T......A...  54
+XP_030032651.1  1    ................-.W-..S-N.....-...............-.-T......A...  54
+XP_030034373.2  1    ...V............-.W-...-N.....-...............-.-T......A...  54
+XP_030035393.1  1    ................-.W-...-N.....-...............-.-T......A...  54
+XP_001951915.1  6      ..............-IW-...-......-...............-.-T......A...  57
+XP_008190051.1  6      ..............-.W-...-......-...............-.-T......A...  57
+XP_001945786.2  6      ..............-IW-...-...V..-...............-.-T......A...  57
+XP_001949837.1  4    I..V............-.W-...-......-...............-.-.......A..S  57
+XP_016941530.2  4    I...............-.W-.NS-......-..............N-.-T......A...  57
+XP_030028765.1  5     ..V............-.F-...-......-...............-.-T......A...  57
+XP_001951207.1  6     ..V............-.F-...-......-............G..-.-T......A...  58
+XP_016933935.1  4    L..V............-.F-...-......-...............-E-.......A...  57
+XP_016933934.1  4    L..V............-.F-...-......-...............-E-.......A...  57
+XP_003244048.1  6     ..V............-.F-...-......-............G..-.-T......A...  58
+XP_016923486.2  5     ..V............-.F-...-......-...............-.-T......A...  57
+XP_030020254.2  3     ..V............-.F-...-......-..............N-E-T......A...  55
+XP_016923990.1  31     V.............-..-KN.-R.....-......I........A.-G......A...  83
+XP_016923989.1  31     V.............-..-KN.-R.....-......I........A.-G......A...  83
+XP_016923987.1  31     V.............-..-KN.-R.....-......I........A.-G......A...  83
+XP_037300573.1  33     V.............-..-KN.-R.....-......I........A.-G......A...  85
+XP_030033394.1  33     V.............-..-KN.-R.....-......I........A.-G......A...  85
+XP_037300572.1  167    V.............-..-KN.-R.....-......I........A.-G......A...  219
+XP_008184380.1  35     V.............-..-KN.-R.....-......I........KE-G......A...  87
+NP_001156420.1  35     V.............-..-KN.-R.....-......I........KE-G......A...  87
+XP_037303050.1  1    .V.........TT.AA-.W-RD.-S....P-.EH............-E-TQA.V.ES.FH  54
+XP_001950499.3  48      ........N...A-.M-EGK-QPRV.E-.SE.S.....V....K.-G...A.T...R  99
+XP_016929350.1  55      ........N..LA-.M-EGK-QAKV.E-.AE.A.....H....K.-G...V.M...R  106
+XP_037299096.1  62      ........N...A-.M-EGK-TPKVVE-.SE.S.....H...SKE-G...V.M...R  113
+XP_037292797.1  1    ...V............-.W-...-N.D...-...............-.-.......A...  54
+XP_001951792.1  4    .SV....F.NESCY.A-.A-RA.-GI.T..-..YSL.A...C...S-P-RN.I..VA...  57
+XP_030032473.1  4    .SV....F.NESCYIA-.A-KA.-GI.T..-..YSL.G...C...S-Q-KN.IL.VA...  57
+XP_030032471.1  4    .SV....F.NESCYIA-.A-KA.-GI.T..-..YSL.G...C...S-Q-KN.IL.VA...  57
+XP_030032472.1  4    .SV....F.NESCYIA-.A-KA.-GI.T..-..YSL.G...C...S-Q-KN.IL.VA...  57
+XP_037297358.1  4    .SV....F.NESCYIA-.A-KA.-GI.T..-..YSL.G...C...S-Q-KN.IL.VA...  57
+XP_016934076.1  1    .SV....F.NEGCY.A-AA-RS.-GI.TL.-..YSL.A...F...D-G-KK.I..VA...  54
+XP_036672308.1  1    .SV....F.NEGCY.A-AA-RS.-GI.TL.-..YSL.A...F...D-G-KK.I..VA...  54
+XP_016934075.1  1    .SV....F.NEGCY.A-AA-RS.-GI.TL.-..YSL.A...F...D-G-KK.I..VA...  54
+XP_016934074.1  1    .SV....F.NEGCY.A-AA-RS.-GI.TL.-..YSL.A...F...D-G-KK.I..VA...  54
+XP_016934073.1  1    .SV....F.NEGCY.A-AA-RS.-GI.TL.-..YSL.A...F...D-G-KK.I..VA...  54
+XP_001945768.2  8        ..HV.NSTASIA-ISKEE.-..DVL.-.EA.D.I..AV.SI.-.-E.TVV.NA..T  58
+XP_036676745.1  23      MSV....EWMK..-.V-SP.VPM..AL-.RESK.K..AIL..R-.-GV.T..ED.QT  74
+XP_016939207.1  23      MSV....EWMK..-.V-SP.VPM..AL-.RESK.K..AIL..R-.-GV.T..ED.QT  74
+XP_016939206.1  23      MSV....EWMK..-.V-SP.VPM..AL-.RESK.K..AIL..R-.-GV.T..ED.QT  74
+XP_008183133.1  28   LAVMSV.I.SEWMK.A-IV-SP.VPM..AL-.KESK.K..TAI..R-N-G..TF.ED.LT  82
+XP_030037218.2  30      .S....SEWMKI.-IV-SP.VPM..VL-.KESK.K..AV...R-.-DV.TF.ED.VT  81
+XP_001946466.2  28   LAVMSV.I.SEWMK.A-IV-SP.VPM..AL-.KESK.K..TAI..R-N-G..TF.ED.LT  82
+XP_030038840.1  4      .Y..H..NSSA.LA-SF-NN.-TASV..-..A.D.V..AV..LN-G-T.WE..L...S  55
+XP_029345877.1  6      ..............-IW-...-...V..-...............-.-T......A...  57
+XP_016934537.1  3     .RF..KI.NSTL.IAH.R-AD.-.A.V..-.K..D.VSQACLLWD-GV..IEC.LT..Q  57
+XP_003241290.2  28   LTVMSV...SEWMK.A-IV-SPD-IS.E..L.KESE.K...AI..R-N-G..TF.KD.LT  82
+
+Query_1         55   QVAMNPRNTVFDAKRLIGRK--YDDPKIAEDMKHWP---------F-KV--V--SDG-GK  97
+XP_016926534.2  55   ....................--......V..I....---------.-..--.--...-..  97
+XP_036673283.1  55   ........S..........R--F.....Q.......---------.-R.--.--..N-..  97
+XP_030038133.2  55   ...L..N.............--F.....QQ......---------.-..--.--...-..  97
+XP_037294571.1  55   ...L..N.............--F.....QQ......---------.-..--.--...-..  97
+XP_037301452.1  55   ...L..N.............--F.....QQ......---------.-..--.--...-..  97
+XP_030032651.1  55   ...L..N.............--F.....QQ......---------.-..--.--...-..  97
+XP_030034373.2  55   ......N.............--F..S..QQ..Q...---------.-..--.--N.C-..  97
+XP_030035393.1  55   ......N.............--F..S..QQ..Q...---------.-..--.--N.C-..  97
+XP_001951915.1  58   ......V............R--F..D.TQA.I....---------.-..--I--N..-..  100
+XP_008190051.1  58   ......V............R--F..D.TQA.I....---------.-T.--I--...-..  100
+XP_001945786.2  58   ......V............R--F..D.TQA.I....---------.-..--.--N.C-..  100
+XP_001949837.1  58   ................V...--F.....Q......S---------.-E.--.--NE.-.L  100
+XP_016941530.2  58   .....AK.............--F..K..Q..L.L..---------.-..--I--NE.-..  100
+XP_030028765.1  58   ......N..I..........--FE.ATVQA......---------.-E.--.--...-..  100
+XP_001951207.1  59   ......N..I.........R--FE.TTVQA......---------.-E.--.--...-..  101
+XP_016933935.1  58   ......N..I.........R--F..ATVQS......---------.-E.--.--AEN-..  100
+XP_016933934.1  58   ......N..I.........R--F..ATVQS......---------.-E.--.--AEN-..  100
+XP_003244048.1  59   ......N..I.........R--FE.ATVQA......---------.-E.--I--...-..  101
+XP_016923486.2  58   ......TQ.I..........--FE.SAVQS......---------.-E.--.--.AD-..  100
+XP_030020254.2  56   ....................--F....VQQ.L....---------.-Q.--.--...-..  98
+XP_016923990.1  84   .LTT..E............E--WS.TNVQH.I.FF.---------.-..--.--EKN-S.  126
+XP_016923989.1  84   .LTT..E............E--WS.TNVQH.I.FF.---------.-..--.--EKN-S.  126
+XP_016923987.1  84   .LTT..E............E--WS.TNVQH.I.FF.---------.-..--.--EKN-S.  126
+XP_037300573.1  86   .LTT..E............E--WG.TTVQH.I.FF.---------.-..--I--EKQ-S.  128
+XP_030033394.1  86   .LTT..E............E--WG.TTVQH.I.FF.---------.-..--I--EKQ-S.  128
+XP_037300572.1  220  .LTT..E............E--WG.TTVQH.I.FF.---------.-..--I--EKQ-S.  262
+XP_008184380.1  88   .LTT..E............D--WS.VNVQH.V.FF.---------.-..--.--EKN-T.  130
+NP_001156420.1  88   .LTT..E............D--WS.VNVQH.V.FF.---------.-..--.--EKN-T.  130
+XP_037303050.1  55   .ASL.......AT......R--...IGVQMHLR.F.---------.-..--S--NVN-..  97
+XP_001950499.3  100  .AVT.TQ..FYAT......R--....E.QK.L.NLT---------.-.I--.KATN.-DA  144
+XP_016929350.1  107  .AVT.SA..FYAT......R--F...EVKK.ITNLS---------Y-..--.K-ASN-.D  150
+XP_037299096.1  114  .AVT.SG..FYAT......R--F...EVQK...NLS---------Y-..--.RA.N.-DA  158
+XP_037292797.1  55   ...L..S..I..........--......QQ.I....---------.-..--.--N..-..  97
+XP_001951792.1  58   .MVT.MK...HGF...L..S--F...FVKQEL..LH---------.-G.G-K--C.N-N.  101
+XP_030032473.1  58   .MVT.MK....GF...L...--.S..HVQKEL..F.---------.-..EQM--P..-.I  102
+XP_030032471.1  58   .MVT.MK....GF...L...--.S..HVQKEL..F.---------.-..EQM--P..-.I  102
+XP_030032472.1  58   .MVT.MK....GF...L...--.S..HVQKEL..F.---------.-..EQM--P..-.I  102
+XP_037297358.1  58   .MVT.MK....GF...L...--.S..HVQKEL..F.---------.-..EQM--P..-.I  102
+XP_016934076.1  55   .QVT.MK...GGF...L...--FN..HVQHEL.SI.---------A-R.--E--AR.D.S  98
+XP_036672308.1  55   .QVT.MK...GGF...L...--FN..HVQHEL.SI.---------A-R.--E--AR.D.S  98
+XP_016934075.1  55   .QVT.MK...GGF...L...--FN..HVQHEL.SI.---------A-R.--E--AR.D.S  98
+XP_016934074.1  55   .QVT.MK...GGF...L...--FN..HVQHEL.SI.---------A-R.--E--AR.D.S  98
+XP_016934073.1  55   .QVT.MK...GGF...L...--FN..HVQHEL.SI.---------A-R.--E--AR.D.S  98
+XP_001945768.2  59   GFISKQA..ITFNN..MNLS--L.ENEKCSLIETNK---------V-.T--I--E..-.H  101
+XP_036676745.1  75   IGIKD.NSAYGYLLD.L.KT--V.N.IVDLYK.RF.---------YYNI--.--G.P-ER  118
+XP_016939207.1  75   IGIKD.NSAYGYLLD.L.KT--V.N.IVDLYK.RF.---------YYNI--.--G.P-ER  118
+XP_016939206.1  75   IGIKD.NSAYGYLLD.L.KT--V.N.IVDLYK.RF.---------YYNI--.--G.P-ER  118
+XP_008183133.1  83   VGVRF.S.CYIYFLD.L.K.--I.N.IVDLYK.RF.---------YYNI--I--P.P-KR  126
+XP_030037218.2  82   VGVRF.K.SYKYLLD.L.KP--..H.LVEAYRQRY.---------Y-YD--I--VKS-ER  124
+XP_001946466.2  83   VGVRF.S.CYIYFLD.L.K.--I.N.IVDLYK.RF.---------YYNI--I--P.P-KR  126
+XP_030038840.1  56   GQP-SSKAIIKHN...MNCD--FNEDDLSYVESSSS---------C-RI--Q--N.----  94
+XP_029345877.1  58   ......V............R--F..D.                                   82
+XP_016934537.1  58   KM.TR..QA.AHSFQ.LQP.EQITEE.L.SALREI.CDFDKEELV.-RM--E--HTV-PS  111
+XP_003241290.2  83   VGVQF.S.CYVYFLD.L.K.--I.N.IVELYKTRF.---------YYNI--I--P.P-KR  126
+
+Query_1         98   PKIGVE-YK-GESKRFA-PEEISSMVLTKMKETAE--AYL--G-ESITDAVITVPAYFND  149
+XP_016926534.2  98   ......-F.-..A....-.........A.......--...--.-..V.............  149
+XP_036673283.1  98   ..MS..-F.-..E....-.................--...--.-TTVK.........X..  149
+XP_030038133.2  98   ...Q..-F.-..T....-.................--...--.-SAVR............  149
+XP_037294571.1  98   ...Q..-F.-..M....-.................--...--.-SAVR............  149
+XP_037301452.1  98   ...Q..-F.-..M....-.................--...--.-SAVR............  149
+XP_030032651.1  98   ...Q..-F.-..M....-.................--...--.-SAVR............  149
+XP_030034373.2  98   ...Q..-..-..T....-.............Q...--...--.-CAVR............  149
+XP_030035393.1  98   ...Q..-..-..T....-.............Q...--...--.-CAVR............  149
+XP_001951915.1  101  ...Q..-F.-..R.V..-.........A.......--...--.-RNV.............  152
+XP_008190051.1  101  ...Q..-F.-..R.V..-..............I..--...--.-RNV.............  152
+XP_001945786.2  101  ...Q..-F.-..R.V..-.................--...--.-RDV.............  152
+XP_001949837.1  101  ...A..-..-..R.I..-...V..........I..--V..--.-GKV....V........  152
+XP_016941530.2  101  ...E..-F.-..R....-...V........R.I..--V..--.-GKVK............  152
+XP_030028765.1  101  ...K.A-..-..D.T.F-...V.............--...--.-KTVQN...........  152
+XP_001951207.1  102  ...RIS-..-..N.I.S-...V.............--...--.-KTV.N...........  153
+XP_016933935.1  101  .R.R..-..-..R.S.Y-...V........R....--...--.-G.V....V........  152
+XP_016933934.1  101  .R.R..-..-..R.S.Y-...V........R....--...--.-G.V....V........  152
+XP_003244048.1  102  ...RIS-..-..N.V.S-...V.............--...--.-KTV.N...........  153
+XP_016923486.2  101  ...E.T-..-D.K.T.F-.................--...--.-KTV.N...........  152
+XP_030020254.2  99   ...I..-..-..KRH.S-.......I......V..--TF.--.-GTVK............  150
+XP_003248918.1  1                                                  V.............  14
+XP_016923990.1  127  .H.S.D-TS-QGA.V..-.....A...G.......--...--.-KKV.H..V........  178
+XP_016923989.1  127  .H.S.D-TS-QGA.V..-.....A...G.......--...--.-KKV.H..V........  178
+XP_016923987.1  127  .H.S.D-TS-QGA.V..-.....A...G.......--...--.-KKV.H..V........  178
+XP_037300573.1  129  .HVS.Q-TA-QGN.I..-.....A...........--...--.-KKV.H..V........  180
+XP_030033394.1  129  .HVS.Q-TA-QGN.I..-.....A...........--...--.-KKV.H..V........  180
+XP_037300572.1  263  .HVS.Q-TA-QGN.I..-.....A...........--...--.-KKV.H..V........  314
+XP_008184380.1  131  .H.E..TIE-.T..V..-.....A...A.......--...--.-KTV.H..V........  183
+NP_001156420.1  131  .H.E..TIE-.T..V..-.....A...A.......--...--.-KTV.H..V........  183
+XP_037303050.1  98   .I.S..-..-NQV.Q.T-S.....FI.FRV..I..--S..--.-VK.SK...........  149
+XP_001950499.3  145  WVQ.------SDG.MYS-.SQ.GAF..I......D--SF.--.-TNVKN...........  192
+XP_016929350.1  151  AWVS----S-TDG.VYS-.SQ.GAFI.I.......--...--N-TPVKN..V........  199
+XP_037299096.1  159  WVQ.------SDG.VYS-.SQ.GAF..M.......--...--N-T.VKN...........  206
+XP_037292797.1  98   ...Q..-..-.KL....-.............DI..--...--.-SAVK............  149
+XP_001951792.1  102  IG.N.N-.L-N.QQT.S-V.Q.TG.L...L..IS.--VT.--K-TKVN.C..S..S..TN  153
+XP_030032473.1  103  -G.R.N-.L-..DNV.S-..Q.TA.LF..L..I.A--IA.--Q-TQ.N.C..S..S..TN  153
+XP_030032471.1  103  -G.R.N-.L-..DNV.S-..Q.TA.LF..L..I.A--IA.--Q-TQ.N.C..S..S..TN  153
+XP_030032472.1  103  -G.R.N-.L-..DNV.S-..Q.TA.LF..L..I.A--IA.--Q-TQ.N.C..S..S..TN  153
+XP_037297358.1  103  -G.R.N-.L-..DNV.S-..Q.TA.LF..L..I.A--IA.--Q-TQ.N.C..S..S..TN  153
+XP_016934076.1  99   IG.K.N-.L-..DQH.G-..QLTA.LF..L...SA--.AM--Q-TQVN.C..AC.VF.TN  150
+XP_036672308.1  99   IG.K.N-.L-..DQH.G-..QLTA.LF..L...SA--.AM--Q-TQVN.C..AC.VF.TN  150
+XP_016934075.1  99   IG.K.N-.L-..DQH.G-..QLTA.LF..L...SA--.AM--Q-TQVN.C..AC.VF.TN  150
+XP_016934074.1  99   IG.K.N-.L-..DQH.G-..QLTA.LF..L...SA--.AM--Q-TQVN.C..AC.VF.TN  150
+XP_016934073.1  99   IG.K.N-.L-..DQH.G-..QLTA.LF..L...SA--.AM--Q-TQVN.C..AC.VF.TN  150
+XP_001945768.2  102  LAYELP-LE-TKK.IYS-.QF.E.NIYKTLYGI.KRATHS--E-DTKCSC.V...EF.D.  155
+XP_036676745.1  119  NTV-.F-R.-SDTEE.S-V..LVAQM.V.A.QF.Q--ESV--Q-QP..EC.L...G..GQ  169
+XP_016939207.1  119  NTV-.F-R.-SDTEE.S-V..LVAQM.V.A.QF.Q--ESV--Q-QP..EC.L...G..GQ  169
+XP_016939206.1  119  NTV-.F-R.-SDTEE.S-V..LVAQM.V.A.QF.Q--ESV--Q-QP..EC.L...G..GQ  169
+XP_008183133.1  127  NTVLFK-HG-ESDDY.S-...LVA.M.E.AR.F.Q--DSA--.-QA.NE...S..G..GQ  178
+XP_030037218.2  125  GT.EFV-H--D.KT..T-...LVAQL.A.A.DF..--INH--.-QQ.SEC.....G...Q  175
+XP_001946466.2  127  NTVLFK-HG-ESDDY.S-...LVA.M.E.AR.F.Q--DSA--.-QA.NE...S..G..GQ  178
+XP_030038840.1  95   E.LVY.-FETS.TTLYSN.DS.AMKIYA.LFTI.S--HSM--SN..DLKL.LAA.LHWSN  149
+XP_016934537.1  112  E.EDQD-DR-VVT.DLS-AYQVTVEL.RAEL.L.H--Q.HTD.-.QAPI..LSI.S.YPA  165
+XP_003241290.2  127  NTVLFK-HN-ESGEQ.S-...LVA.M.E.AR.F.Q--DNS--.-QV.NE...S..G..GQ  178
+XP_016656095.1  1                            .M.E.AR.F.Q--DNS--.-QV.NE...S..G..GQ  31
+XP_016656094.1  1                            .M.E.AR.F.Q--DNS--.-QV.NE...S..G..GQ  31
+
+Query_1         150  SQRQATKDAGHIAGLNVLRIINEPTAAALAYGL----DK----N-----L---KGE---R  190
+XP_016926534.2  150  .................................----..----.-----.---...---.  190
+XP_036673283.1  150  ..........A......................----..----.-----.---...---.  190
+XP_030038133.2  150  ..........A......................----..----.-----.---...---.  190
+XP_037294571.1  150  ..........A......................----..----.-----.---...---.  190
+XP_037301452.1  150  ..........A......................----..----.-----.---...---.  190
+XP_030032651.1  150  ..........A......................----..----.-----.---...---.  190
+XP_030034373.2  150  ..........A......................----..----.-----.---...---.  190
+XP_030035393.1  150  ..........A......................----..----.-----.---...---.  190
+XP_001951915.1  153  ..........A......M...............----..----.-----.---...---.  193
+XP_008190051.1  153  ..........V......M...............----..----.-----.---...---.  193
+XP_001945786.2  153  ..........A......M...............----..----.-----.---...---.  193
+XP_001949837.1  153  ..........A......................----..----.-----.---...---K  193
+XP_016941530.2  153  ..........S......................----..----.-----.---...---.  193
+XP_030028765.1  153  ..........T.S...............I....----..----K-----G---S..---.  193
+XP_001951207.1  154  ........S.T......M..........I....----..----K-----T---S..---.  194
+XP_016933935.1  153  ..........A.................I....----..----Q-----G---TS.---.  193
+XP_016933934.1  153  ..........A.................I....----..----Q-----G---TS.---.  193
+XP_003244048.1  154  ........S.T......M..........I....----..----K-----T---S..---.  194
+XP_016923486.2  153  ..........T...X.............I....----..----K-----A---V..---.  193
+XP_030020254.2  151  ........T.V..A...................----..----.-----.---Q.D---K  191
+XP_003248918.1  15   ..........A......M...............----..----.-----.---...---.  55
+XP_016923990.1  179  A.........V....Q.M..........I....----..----K---------E..---K  218
+XP_016923989.1  179  A.........V....Q.M..........I....----..----K---------E..---K  218
+XP_016923987.1  179  A.........V....Q.M..........I....----..----K---------E..---K  218
+XP_037300573.1  181  A.........I......M..........I....----..----K---------E..---K  220
+XP_030033394.1  181  A.........I......M..........I....----..----K---------E..---K  220
+XP_037300572.1  315  A.........I......M..........I....----..----K---------E..---K  354
+XP_008184380.1  184  G.........A....T.M..........I....----..----R---------E..---K  223
+NP_001156420.1  184  G.........A....T.M..........I....----..----R---------E..---K  223
+XP_037303050.1  150  .......N..V...FQ...VT............----..----.-----.---Q.Q----  189
+XP_001950499.3  193  ..........Q........V............M----E.----D----------SD---K  231
+XP_016929350.1  200  ..........Q........V............M----..----T----------ED---K  238
+XP_037299096.1  207  ..........Q.S......V............M----..----T----------DD---K  245
+XP_037292797.1  150  ..........A....H.................----..----D-----.---...---.  190
+XP_001951792.1  154  AE.K.LL.SAS........LF..TS.T..S..I----Y.----QDLPNPE---EKP---.  199
+XP_030032473.1  154  AE.N.LLN.AS.S......LM..T..T..T..I----Y.----QDLPAPE---EKP---.  199
+XP_030032471.1  154  AE.N.LLN.AS.S......LM..T..T..T..I----Y.----QDLPAPE---EKP---.  199
+XP_030032472.1  154  AE.N.LLN.AS.S......LM..T..T..T..I----Y.----QDLPAPE---EKP---.  199
+XP_037297358.1  154  AE.N.LLN.AS.S......LM..T..T..T..I----Y.----QDLPAPE---EKP---.  199
+XP_016934076.1  151  AE.R.LL..AQ........LM..T..T.....F----Y.----.-----D---LF.DKP.  194
+XP_036672308.1  151  AE.R.LL..AQ........LM..T..T.....F----Y.----.-----D---LF.DKP.  194
+XP_016934075.1  151  AE.R.LL..AQ........LM..T..T.....F----Y.----.-----D---LF.DKP.  194
+XP_016934074.1  151  AE.R.LL..AQ........LM..T..T.....F----Y.----.-----D---LF.DKP.  194
+XP_016934073.1  151  AE.R.LL..AQ........LM..T..T.....F----Y.----.-----D---LF.DKP.  194
+XP_001945768.2  156  PS.ESVRN.AIQ..W...QVV.A.SVTPFT..I----------.-----V---TEP---L  194
+XP_036676745.1  170  AE.E.LLS.AQL.N.K..QL..DYA.V..N..V----FH--------------R..---I  208
+XP_016939207.1  170  AE.E.LLS.AQL.N.K..QL..DYA.V..N..V----FH--------------R..---I  208
+XP_016939206.1  170  AE.E.LLS.AQL.N.K..QL..DYA.V..N..V----FH--------------R..---I  208
+XP_008183133.1  179  AE.T.MLK.AE...IK..QL..SY.....N..I----FRTKSF.-----E---TTP---M  223
+XP_030037218.2  176  AE.R.L.E.AAL......QL..DY..I.IN..I----FR----R-----KEINETA---W  219
+XP_001946466.2  179  AE.T.MLK.AE...IK..QL..SY.....N..I----FRTKSF.-----E---TTP---M  223
+XP_030038840.1  150  AS.ERLVKCAEL..FD..QV.S..A..L...NI----EE----.-----P---E-D---I  189
+XP_016934537.1  166  QAYKLLAE.AET..FH.AQ..A.....V.G.SIG---EE----Q-----A---EQR---.  207
+XP_003241290.2  179  AE.L.MLK.AE.V.IK..QL..SY.S...N...FHIKSF----.-----E---ISP---M  223
+XP_016656095.1  32   AE.L.MLK.AE.V.IK..QL..SY.S...N...FHIKSF----.-----E---ISP---M  76
+XP_016656094.1  32   AE.L.MLK.AE.V.IK..QL..SY.S...N...FHIKSF----.-----E---ISP---M  76
+
+Query_1         191  N-----VLIFDLGGGTFDVSIL---------T-----------I-----------DEGSL  214
+XP_016926534.2  191  .-----................---------.-----------.-----------.....  214
+XP_036673283.1  191  .-----................---------.-----------.-----------...-.  213
+XP_030038133.2  191  .-----................---------S-----------.-----------.....  214
+XP_037294571.1  191  .-----................---------S-----------.-----------.....  214
+XP_037301452.1  191  .-----................---------S-----------.-----------.....  214
+XP_030032651.1  191  .-----................---------S-----------.-----------.....  214
+XP_030034373.2  191  .-----..............V.---------.-----------.-----------.....  214
+XP_030035393.1  191  .-----..............V.---------.-----------.-----------.....  214
+XP_001951915.1  194  .-----................---------Q-----------.-----------....I  217
+XP_008190051.1  194  .-----................---------Q-----------.-----------....I  217
+XP_001945786.2  194  .-----..............V.---------Q-----------.-----------....I  217
+XP_001949837.1  194  .-----................---------A-----------.-----------.....  217
+XP_016941530.2  194  .-----................---------.-----------.-----------.....  217
+XP_030028765.1  194  .-----................---------.-----------.-----------ED.-I  216
+XP_001951207.1  195  .-----................---------.-----------.-----------ED.-I  217
+XP_016933935.1  194  .-----..............V.---------.-----------.-----------ED.-I  216
+XP_016933934.1  194  .-----..............V.---------.-----------.-----------ED.-I  216
+XP_003244048.1  195  .-----................---------.-----------.-----------ED.-I  217
+XP_016923486.2  194  .-----................---------S-----------.-----------.D.-I  216
+XP_030020254.2  192  .-----................---------Q-----------.-----------A....  215
+XP_003248918.1  56   .-----..............V.---------Q-----------.-----------....I  79
+XP_016923990.1  219  .-----..V...........L.---------.-----------.-----------.N.-V  241
+XP_016923989.1  219  .-----..V...........L.---------.-----------.-----------.N.-V  241
+XP_016923987.1  219  .-----..V...........L.---------.-----------.-----------.N.-V  241
+XP_037300573.1  221  .-----..V...........L.---------.-----------.-----------.N.-V  243
+XP_030033394.1  221  .-----..V...........L.---------.-----------.-----------.N.-V  243
+XP_037300572.1  355  .-----..V...........L.---------.-----------.-----------.N.-V  377
+XP_008184380.1  224  .-----..V...........L.---------.-----------.-----------.N.-V  246
+NP_001156420.1  224  .-----..V...........L.---------.-----------.-----------.N.-V  246
+XP_037303050.1  190  .-----IMVY............---------S-----------.-----------KD.-V  212
+XP_001950499.3  232  L-----IAVY............---------E-----------.-----------QK.-V  254
+XP_016929350.1  239  I-----IAVY........I...---------E-----------.-----------QK.-V  261
+XP_037299096.1  246  I-----IAVY........I.V.---------E-----------.-----------QK.-V  268
+XP_037292797.1  191  .-----................---------.-----------.-----------.....  214
+XP_001951792.1  200  .-----.VFV.C.YTSLQ.F.C---------A-----------F-----------NK.K.  223
+XP_030032473.1  200  .-----.VFV.F.HSSLQ.AAC---------A-----------F-----------NK.K.  223
+XP_030032471.1  200  .-----.VFV.F.HSSLQ.AAC---------A-----------F-----------NK.K.  223
+XP_030032472.1  200  .-----.VFV.F.HSSLQ.AAC---------A-----------F-----------NK.K.  223
+XP_037297358.1  200  .-----.VFV.F.HSSLQ.AAC---------A-----------F-----------NK.K.  223
+XP_016934076.1  195  .-----.IFV.F.HSSLQA.AC---------A-----------F-----------TK.K.  218
+XP_036672308.1  195  .-----.IFV.F.HSSLQA.AC---------A-----------F-----------TK.K.  218
+XP_016934075.1  195  .-----.IFV.F.HSSLQA.AC---------A-----------F-----------TK.K.  218
+XP_016934074.1  195  .-----.IFV.F.HSSLQA.AC---------A-----------F-----------TK.K.  218
+XP_016934073.1  195  .-----.IFV.F.HSSLQA.AC---------A-----------F-----------TK.K.  218
+XP_001945768.2  195  .DTY--I.VYR...ISC.ATV.---------Y-----------V-----------NS.-.  220
+XP_036676745.1  209  .ETAQYF.FY.M.AYKTSAAVVSYQLVKDKQ.-----------K-----------EINPV  246
+XP_016939207.1  209  .ETAQYF.FY.M.AYKTSAAVVSYQLVKDKQ.-----------K-----------EINPV  246
+XP_016939206.1  209  .ETAQYF.FY.M.AYKTSAAVVSYQLVKDKQ.-----------K-----------EINPV  246
+XP_008183133.1  224  Y-----MMFY.M.AYGTQ..VV---------S-----------YQLIKSKDRIAPELQPH  258
+XP_030037218.2  220  H-----A.F..M.A.STKAALV---------EYKTVKIKEKGYV-----------ETVPQ  254
+XP_001946466.2  224  Y-----MMFY.M.AYGTQ..VV---------S-----------YQLIKSKDRIAPELQPH  258
+XP_030038840.1  190  .-----..VYR...S.CAA..V---------K-----------V-----------S-.GF  212
+XP_016934537.1  208  H-----..TIKC..LYS.FALY---------A-----------V-----------QN.-.  230
+XP_003241290.2  224  F-----MMFY.M.AYGTQ..VV---------S-----------YQLVKSKDRRAREIQPQ  258
+XP_016656095.1  77   F-----MMFY.M.AYGTQ..VV---------S-----------YQLVKSKDRRAREIQPQ  111
+XP_016656094.1  77   F-----MMFY.M.AYGTQ..VV---------S-----------YQLVKSKDRRAREIQPQ  111
+
+Query_1         215  FEVRSTAGDTHLGGEDFDNRLVTHLADEFK--RKYKKDLRSNPRALRRLRTAAERAKRTL  272
+XP_016926534.2  215  ..............................--............................  272
+XP_036673283.1  214  ......................N...E...--............................  271
+XP_030038133.2  215  ...KA.................N...E..Q--..F.........................  272
+XP_037294571.1  215  ...KA.................N...E..Q--..F...M.....................  272
+XP_037301452.1  215  ...KA.................N...E..Q--..F.........................  272
+XP_030032651.1  215  ...KA.................N...E..Q--..F.........................  272
+XP_030034373.2  215  ...KA.................N......R--...R..I.G.T.................  272
+XP_030035393.1  215  ...KA.................N......R--...R..I.G.A.................  272
+XP_001951915.1  218  ...K..................S.......--..T...V.A...........V.......  275
+XP_008190051.1  218  ...K..................S.......--..T...V.A...................  275
+XP_001945786.2  218  ...K..................C...E...--..S...VHT...................  275
+XP_001949837.1  218  ...K....................FVE...--..C...ISG.T.........C.......  275
+XP_016941530.2  218  ...K..................N.F.E...--..H.S.IKG.A.........C.......  275
+XP_030028765.1  217  ...K................M.N.FVQ...--.......TT.K.........C.......  274
+XP_001951207.1  218  ...K................M.N.FVQ...--......VTT.K.........C.......  275
+XP_016933935.1  217  ...KA.................N.FVQ..Q--..H.R..GQ.K.........C.......  274
+XP_016933934.1  217  ...KA.................N.FVQ..Q--..H.R..GQ.K.........C.......  274
+XP_003244048.1  218  ...K................M.N.FVQ...--......VTT.K.........C.......  275
+XP_016923486.2  217  ...K....................FVQ...--..H....TT.K.........C.......  274
+XP_030020254.2  216  ..................S.M.D.FSQ..E--.....NIKD..K........C.......  273
+XP_003248918.1  80   ...K..................C...E...--..S...VHT...................  137
+XP_016923990.1  242  ...VA.N...........Q.VMD.FIKLY.--K.KG..I.KDN..VQK..REV.K...A.  299
+XP_016923989.1  242  ...VA.N...........Q.VMD.FIKLY.--K.KG..I.KDN..VQK..REV.K...A.  299
+XP_016923987.1  242  ...VA.N...........Q.VMD.FIKLY.--K.KG..I.KDN..VQK..REV.K...A.  299
+XP_037300573.1  244  ...VA.N...........Q.VME.FIKLY.--K.KG..I.KDN..VQK..REV.K...A.  301
+XP_030033394.1  244  ...VA.N...........Q.VME.FIKLY.--K.KG..I.KDN..VQK..REV.K...A.  301
+XP_037300572.1  378  ...VA.N...........Q.VME.FIKLY.--K.KG..I.KDN..VQK..REV.K...A.  435
+XP_008184380.1  247  ...V..N...........Q.VMD.FIKLY.--K.KG..I.KDN..VQK..REV.K...G.  304
+NP_001156420.1  247  ...V..N...........Q.VMD.FIKLY.--K.KG..I.KDN..VQK..REV.K...G.  304
+XP_037303050.1  213  ...KA...N.N...........AYFIED.R--K..NINI-T.HKSV...KC....T.KF.  269
+XP_001950499.3  255  ...K..N...L........L..NY.IS...--KEQGV..NKDVM..Q.VKE...K..VE.  312
+XP_016929350.1  262  ...K..N...L........HI.NF.VS...--KDSGI.I.KDNI.MQ..KE...K..CE.  319
+XP_037299096.1  269  ...K..N...L........VI.NF.V....--.DQGL.I.KDAM.MQ..KE...K..IE.  326
+XP_037292797.1  215  ...KA.............--I.NF......--ESIR.I.ET                     251
+XP_001951792.1  224  KMLA..F-.SQ...RE..FI.AE.FSKD..--TR.NI.P.T.A..FL..L.EV.KI.KQM  280
+XP_030032473.1  224  -R.LA..N.PQC..R.I.MA.ADYFCQD.V--TRL.L.A.K.Q..FL..LQEV.KL.KQM  280
+XP_030032471.1  224  -R.LA..N.PQC..R.I.MA.ADYFCQD.V--TRL.L.A.K.Q..FL..LQEV.KL.KQM  280
+XP_030032472.1  224  -R.LA..N.PQC..R.I.MA.ADYFCQD.V--TRL.L.A.K.Q..FL..LQEV.KL.KQM  280
+XP_037297358.1  224  -R.LA..N.PQC..R.I.MA.ADYFCQD.V--TRL.L.A.K.Q..FL..LQEV.KL.KQM  280
+XP_016934076.1  219  KMLA..WD--QI..R.I.LA.GDYF.K..Q--ER..INAKT.A..NL..L.EI.KL.KQM  274
+XP_036672308.1  219  KMLA..WD--QI..R.I.LA.GDYF.K..Q--ER..INAKT.A..NL..L.EI.KL.KQM  274
+XP_016934075.1  219  KMLA..WD--QI..R.I.LA.GDYF.K..Q--ER..INAKT.A..NL..L.EI.KL.KQM  274
+XP_016934074.1  219  KMLA..WD--QI..R.I.LA.GDYF.K..Q--ER..INAKT.A..NL..L.EI.KL.KQM  274
+XP_016934073.1  219  KMLA..WD--QI..R.I.LA.GDYF.K..Q--ER..INAKT.A..NL..L.EI.KL.KQM  274
+XP_001945768.2  221  VSIVASEHTKAI..YKLIET.KA..IE.V.--..HRSNPSE.A..SAK.QR.T.D.VHL.  278
+XP_036676745.1  247  VQ.LGVGY.RT...LEIQL..RDY..Q..NALK.T.T.VTKH.K..AK.FKE.G.L.NV.  306
+XP_016939207.1  247  VQ.LGVGY.RT...LEIQL..RDY..Q..NALK.T.T.VTKH.K..AK.FKE.G.L.NV.  306
+XP_016939206.1  247  VQ.LGVGY.RT...LEIQL..RDY..Q..NALK.T.T.VTKH.K..AK.FKE.G.L.NV.  306
+XP_008183133.1  259  LA.LGVGYERN...LEMQL..RDY..AK.NNLKLTPN.VTK.T.SMAK.FKE.G.L.NV.  318
+XP_030037218.2  255  LQ.LGVGF.RT...HEMTL..RE..IKAWE--ANGGG.V.AS...MEK.LKE...L.IV.  312
+XP_001946466.2  259  LA.LGVGYERN...LEMQL..RDY..AK.NNLKLTPN.VTK.T.SMAK.FKE.G.L.NV.  318
+XP_030038840.1  213  MTIEKNIFRSD...QCLTKD.ADYI.Q..R--Q.W.L.PQESR..MAK.LLH.DNC.HV.  270
+XP_016934537.1  231  .VQLA.F.PFPI..RQ.TEA..QFICE..R--....L.PHESR.SVAKI....ANC.HI.  288
+XP_003241290.2  259  LTILGVGYERN...LEIQL..RDY..TK.NDLKFTPN.VTK..QSMAK.FKE.G.L.II.  318
+XP_016656095.1  112  LTILGVGYERN...LEIQL..RDY..TK.NDLKFTPN.VTK..QSMAK.FKE.G.L.II.  171
+XP_016656094.1  112  LTILGVGYERN...LEIQL..RDY..TK.NDLKFTPN.VTK..QSMAK.FKE.G.L.II.  171
+
+Query_1         273  SS-STEATIEIDALFEG----QDFYTKVSRARFEELCADLFRNTLQPVEKALNDAKMDK-  326
+XP_016926534.2  273  ..-..............----H..............................T..R...-  326
+XP_036673283.1  272  ..-....SL........----H...S...........G.....................-  325
+XP_030038133.2  273  ..-...........Y..----I....R.........N.....G..D......K......-  326
+XP_037294571.1  273  ..-...........Y..----I....R.........N.....G..D......K......-  326
+XP_037301452.1  273  ..-...........Y..----I....R.........N.....G..D......K......-  326
+XP_030032651.1  273  ..-...........Y..----I....R.........N.....G..D......K......-  326
+XP_030034373.2  273  ..-....S......H..----I....R.........N.....G..A...Q..R...L..-  326
+XP_030035393.1  273  ..-....S......H..----I....R.........N.....G..A...Q..R...L..-  326
+XP_001951915.1  276  ..-.S...V.....VD.----I....R...............S.........A...L..-  329
+XP_008190051.1  276  ..-.S...L.....VD.----I....R...............S.........A...L..-  329
+XP_001945786.2  276  ..-.S.........M..----I....R...............S.........A......-  329
+XP_001949837.1  276  ..-....SL.....HD.----V...S.IT......M.M....S..S......A......-  329
+XP_016941530.2  276  ..-....SL.....H..----I...S.I........NM....S.M....R..S......-  329
+XP_030028765.1  275  ..-..Q.S....S....----I....SIT.......N.....S.ME....S.R......-  328
+XP_001951207.1  276  ..-..Q.S....S....----V....SIT.......N.....S.ME....S.R......-  329
+XP_016933935.1  275  ..-..Q.S....S....----V....S.T.......NG....G.ME..A...R......-  328
+XP_016933934.1  275  ..-..Q.S....S....----V....S.T.......NG....G.ME..A...R......-  328
+XP_003244048.1  276  ..-..Q.S....S....----V....SIT.......N.....S.ME....S.R......-  329
+XP_016923486.2  275  ..-..Q.S....S....----T....SIT.......N.....S.MD......R...L..-  328
+XP_030020254.2  274  ..-....SL.....H..----I...S.MT........S....Q..G...R..K..GLNT-  327
+XP_003248918.1  138  ..-.S.........M..----I....R...............S.........A......-  191
+XP_016923990.1  300  .G-.HQVR...ESF...----D..SETLT..K....NL....S..K..Q.V.E..D.N.-  353
+XP_016923989.1  300  .G-.HQVR...ESF...----D..SETLT..K....NL....S..K..Q.V.E..D.N.-  353
+XP_016923987.1  300  .G-.HQVR...ESF...----D..SETLT..K....NL....S..K..Q.V.E..D.N.-  353
+XP_037300573.1  302  ..-.HQVK...ESF...----E..SETLT..K....NM....S..K..Q.V.E..D.N.-  355
+XP_030033394.1  302  ..-.HQVK...ESF...----E..SETLT..K....NM....S..K..Q.V.E..D.N.-  355
+XP_037300572.1  436  ..-.HQVK...ESF...----E..SETLT..K....NM....S..K..Q.V.E..D.N.-  489
+XP_008184380.1  305  .A-.HQVR...ESF...----D..SETLT..K....NM....S.MK..Q.VME..D.N.-  358
+NP_001156420.1  305  .A-.HQVR...ESF...----D..SETLT..K....NM....S.MK..Q.VME..D.N.-  358
+XP_037303050.1  270  T.-AS..SVLV.SVYD.----I.YTG.I..TL.....S...ND..K.IQQ..T..RLG.-  323
+XP_001950499.3  313  ..-.LQTD.NLPYITVDSSGPKHLNL.LT..K..G.VG..IKR.TG.CQ..VK..EIKL-  370
+XP_016929350.1  320  ..-.QQTD.NLPY.TMDAAGP.HMNL.MT.SKL.S.VG..IKR.I..CQ...S..EVS.-  377
+XP_037299096.1  327  .G-.LQTD.NLPY.TMDASGPKHMNL.MT.SKL.S.VG..IKR.VA.CQR..Q..ETQR-  384
+XP_001951792.1  281  .AN..KLPMN.ECFMDD----K.VHGDIK..E....AMY..NRVEVTL.QC.K.S.LS.-  335
+XP_030032473.1  281  .AN..RLPLN.ECFM.E----R.VSGDLQ.SQM.QI..ET.TRIERTLRAI.HN..LRP-  335
+XP_030032471.1  281  .AN..RLPLN.ECFM.E----R.VSGDLQ.SQM.QI..ET.TRIERTLRAI.HN..LRP-  335
+XP_030032472.1  281  .AN..RLPLN.ECFM.E----R.VSGDLQ.SQM.QI..ET.TRIERTLRAI.HN..LRP-  335
+XP_037297358.1  281  .AN..RLPLN.ECFM.E----R.VSGDLQ.SQM.QI..ET.TRIERTLRAI.HN..LRP-  335
+XP_016934076.1  275  .AN..KLPLN.ECFLDD----I.VSSSMQ.SQM.....PVLQRVE.TFKRL.AES.LQL-  329
+XP_036672308.1  275  .AN..KLPLN.ECFLDD----I.VSSSMQ.SQM.....PVLQRVE.TFKRL.AES.LQL-  329
+XP_016934075.1  275  .AN..KLPLN.ECFLDD----I.VSSSMQ.SQM.....PVLQRVE.TFKRL.AES.LQL-  329
+XP_016934074.1  275  .AN..KLPLN.ECFLDD----I.VSSSMQ.SQM.....PVLQRVE.TFKRL.AES.LQL-  329
+XP_016934073.1  275  .AN..KLPLN.ECFLDD----I.VSSSMQ.SQM.....PVLQRVE.TFKRL.AES.LQL-  329
+XP_001945768.2  279  .T-LKT.N.F.ES.TD.----V..AAM..Q....S.I.H.LTDFAL.I.VV.KK.NLKS-  332
+XP_036676745.1  307  .A-N..FFAQ.EN.L.D----I..KLT...EKL.QI.E..WPRATK.L.Q..ASSHLSL-  360
+XP_016939207.1  307  .A-N..FFAQ.EN.L.D----I..KLT...EKL.QI.E..WPRATK.L.Q..ASSHLSL-  360
+XP_016939206.1  307  .A-N..FFAQ.EN.L.D----I..KLT...EKL.QI.E..WPRATK.L.Q..ASSHLSL-  360
+XP_008183133.1  319  .A-N..HFAQ.EG.IDE----K.MRI..T.EEL....K...DKVVL.AKR..EASGLTI-  372
+XP_030037218.2  313  .A-N..FYAQ.ES.LDD----K..KQL.T..EL.......WPR-VSG.VQRAIA.AGGA-  365
+XP_001946466.2  319  .A-N..HFAQ.EG.IDE----K.MRI..T.EEL....K...DKVVL.AKR..EASGLTI-  372
+XP_030038840.1  271  .T-LNS.HVF.ES.LD.----V.WSQN.......NIISSKISSYIE.AQ.LVESF---D-  321
+XP_016934537.1  289  TT-MPSTQLY..S.MD.----V..NAQM......S.IQPVIN.LI.QLGECVEQ.QKEHP  343
+XP_003241290.2  319  .A-N..HFAQ.EG.IDQ----K.M.I..T.EEL.Q..K...DKVTL.AL...EASGLTI-  372
+XP_016656095.1  172  .A-N..HFAQ.EG.IDQ----K.M.I..T.EEL.Q..K...DKVTL.AL...EASGLTI-  225
+XP_016656094.1  172  .A-N..HFAQ.EG.IDQ----K.M.I..T.EEL.Q..K...DKVTL.AL...EASGLTI-  225
+
+Query_1         327  --GQIHDIVLVGGSTRIPKVQS-LLQDFFH---GKNLNLSINPDEAVAYGAAVQAAILSG  380
+XP_016926534.2  327  --....................-...Q..N---..S........................  380
+XP_036673283.1  326  --....................-...S..G---..T................I.......  379
+XP_030038133.2  327  --S....V..............-...N..C---..K........................  380
+XP_037294571.1  327  --S....V..............-...N..C---..K........................  380
+XP_037301452.1  327  --S....V..............-...N..C---..K........................  380
+XP_030032651.1  327  --S....V..............-...N..C---..K........................  380
+XP_030034373.2  327  --SS...V...........I..-M.R...C---..Q........................  380
+XP_030035393.1  327  --SS...V...........I..-MVR...C---..Q........................  380
+XP_001951915.1  330  --.D.Q.V...........I..-...N..C---..P........................  383
+XP_008190051.1  330  --.D.Q.V...........I..-...N..C---..P........................  383
+XP_001945786.2  330  --.D.N.V...........I..-...NY.C---..P........................  383
+XP_001949837.1  330  --SS...V...........I.K-M.....C---..S........................  383
+XP_016941530.2  330  --KA...V...........I.K-....L.G---..Q......................T.  383
+XP_030028765.1  329  --S..................K-......N---..E..K...................H.  382
+XP_001951207.1  330  --SA.N...............K-......N---..E..K...................H.  383
+XP_016933935.1  329  --...................R-......N---..E..K...................H.  382
+XP_016933934.1  329  --...................R-......N---..E..K...................H.  382
+XP_003244048.1  330  --SAVN...............K-......N---..E..K...................H.  383
+XP_016923486.2  329  --SV.................R-....L.N---..E..K...................H.  382
+XP_030020254.2  328  --RE...V......I....I.R-...E..G---..T......................T.  381
+XP_003248918.1  192  --.D.N.V...........I..-...NY.C---..P........................  245
+XP_016923990.1  354  --KDV.E..............Q-.VK...G---..EPSRG...............GV...  407
+XP_016923989.1  354  --KDV.E..............Q-.VK...G---..EPSRG...............GV...  407
+XP_016923987.1  354  --KDV.E..............Q-.VK...G---..EPSRG...............GV...  407
+XP_037300573.1  356  --KDVDE..............Q-.VKE..N---..EPSRG...............GV...  409
+XP_030033394.1  356  --KDVDE..............Q-.VKE..N---..EPSRG...............GV...  409
+XP_037300572.1  490  --KDVDE..............Q-.VKE..N---..EPSRG...............GV...  543
+XP_008184380.1  359  --KD.DE..............Q-.VKEY.N---..EPSRG...............GV...  412
+NP_001156420.1  359  --KD.DE..............Q-.VKEY.N---..EPSRG...............GV...  412
+XP_037303050.1  324  --SD.NKVI............R-M.Y.L.E---.R-VTA.L.......H...I.......  376
+XP_001950499.3  371  --SD.S.VL....M..M.....-.V.EI.----..QPSKAV.......V...I.GGV...  423
+XP_016929350.1  378  --SE.GEVL....M..M....A-TV.EL.----.RQPSR.V.......V.....GGV.A.  430
+XP_037299096.1  385  --SD.GEVL....M..M....Q-TV.EI.----.RAPSRAV.......V.....GGV.A.  437
+XP_001951792.1  336  --DD.YSVEI....S...YIKN-.IEKI.----..TPSTTL.Q.....R.C.L.C.M..P  388
+XP_030032473.1  336  --EE..SVEV........A.K.-.IEQV.----..PASTTL.Q.....R.C.L.C.M..P  388
+XP_030032471.1  336  --EE..SVEV........A.K.-.IEQV.----..PASTTL.Q.....R.C.L.C.M..P  388
+XP_030032472.1  336  --EE..SVEV........A.K.-.IEQV.----..PASTTL.Q.....R.C.L.C.M..P  388
+XP_037297358.1  336  --EE..SVEV........A.K.-.IEQV.----..PASTTL.Q.....R.C.L.C.M..P  388
+XP_016934076.1  330  --DD..SVEI....S...S.KQ-.IEQV.N----.PASTTL.Q....SR...L.C..M.-  381
+XP_036672308.1  330  --DD..SVEI....S...S.KQ-.IEQV.N----.PASTTL.Q....SR...L.C..M.-  381
+XP_016934075.1  330  --DD..SVEI....S...S.KQ-.IEQV.N----.PASTTL.Q....SR...L.C..M.-  381
+XP_016934074.1  330  --DD..SVEI....S...S.KQ-.IEQV.N----.PASTTL.Q....SR...L.C..M.-  381
+XP_016934073.1  330  --DD..SVEI....S...S.KQ-.IEQV.N----.PASTTL.Q....SR...L.C..M.-  381
+XP_001945768.2  333  --SD.KKVL.C..PLK...LKH-YIGNL.P---HADIPN..S...VL........SF.AK  386
+XP_036676745.1  361  --DV.NQVI.F..G..V.R..E-TIKALIKQEL....----.A..SATM..VYK..D..A  413
+XP_016939207.1  361  --DV.NQVI.F..G..V.R..E-TIKALIKQEL....----.A..SATM..VYK..D..A  413
+XP_016939206.1  361  --DV.NQVI.F..G..V.R..E-TIKALIKQEL....----.A..SATM..VYK..D..A  413
+XP_008183133.1  373  --EL.EQVM.S.AG..V.R..DR.VK.LKS---NQP.GR.L.T...S.L...YK..D..N  427
+XP_030037218.2  366  --.AGARV.VA..AA.V.N.LA-A.R.-AA---.HEPSK...A...A.L..VYR..S.AT  418
+XP_001946466.2  373  --EL.EQVM.S.AG..V.R..DR.VK.LKS---NQP.GR.L.T...S.L...YK..D..N  427
+XP_030038840.1  322  --....K..VC...MK...L.Q-AIANLIP---EAEVLSG.....VI.V.C.RE.GL.    373
+XP_016934537.1  344  SLTS.D....L.ATMQ...L.A-AVGAR.P---DAK.HN.HSA..V..I.C.R..NC.    397
+XP_003241290.2  373  --EH.EQVM...AG..V.RI.DV.VK.LKS---.HL.GR.L.T.D                 412
+XP_016656095.1  226  --EH.EQVM...AG..V.RI.DV.VK.LKS---.HL.GR.L.T.D.A.L...YK..E.RN  280
+XP_016656094.1  226  --EH.EQVM...AG..V.RI.DV.VK.LKS---.HL.GR.L.T.D.A.L...YK..E.RN  280
+
+Query_1         381  DQSGK---IQDVLLVD--VA--PLSLGI---ET--AG--GV---MTKLIERNC-----RI  418
+XP_016926534.2  381  .....---........--..--......---..--..--..---.........-----..  418
+XP_036673283.1  380  .E.SQ---.K......--..--......---..--..--..---........S-----..  417
+XP_030038133.2  381  ATDS.---........--..--......---..--..--..---...IV...S-----K.  418
+XP_037294571.1  381  ATDS.---........--..--......---..--..--..---...IV...S-----K.  418
+XP_037301452.1  381  ATDS.---........--..--......---..--..--..---...IV...S-----K.  418
+XP_030032651.1  381  ATDS.---........--..--......---..--..--..---...IV...S-----K.  418
+XP_030034373.2  381  E.HS.---........--..--......---..--..--..---...IV...A-----K.  418
+XP_030035393.1  381  E.HS.---........--..--......---..--..--..---...I....A-----K.  418
+XP_001951915.1  384  .T.SA---........--.T--......---..--..--..---...I....S-----T.  421
+XP_008190051.1  384  .T.SA---........--.T--......---..--..--..---...IV...S-----T.  421
+XP_001945786.2  384  .T.SA---........--.T--......---..--..--..---...IV...S-----T.  421
+XP_001949837.1  384  .T.SA---........--.T--......---..--..--..---....V...S-----..  421
+XP_016941530.2  384  VG.SQ---...L....--..--......---..--..--..---....V...A-----..  421
+XP_030028765.1  383  .K.EE---V..L..L.--.T--......---..--..--..---..T..K..T-----T.  420
+XP_001951207.1  384  .K.EE---V..L..L.--.T--......---..--..--..---..A..K..T-----T.  421
+XP_016933935.1  383  .K.EA---V..L..L.--.T--......---..--..--..---..T..K..T-----T.  420
+XP_016933934.1  383  .K.EA---V..L..L.--.T--......---..--..--..---..T..K..T-----T.  420
+XP_003244048.1  384  .K.EE---V..L..L.--.T--......---..--..--..---..A..K..T-----T.  421
+XP_016923486.2  383  .K.QE---V..L..L.--.T--......---..--..--..---.SV..K..T-----T.  420
+XP_030020254.2  382  SKDER---........--.T--......---..--..--..---..R.V...T-----..  419
+XP_003248918.1  246  .T.SA---........--.T--......---..--..--..---...IV...S-----T.  283
+XP_016923990.1  408  E.D-----TDAIV.L.--.N--..TM..---..--V.--..---.....P..T-----V.  443
+XP_016923989.1  408  E.D-----TDAIV.L.--.N--..TM..---..--V.--..---.....P..T-----V.  443
+XP_016923987.1  408  E.D-----TDAIV.L.--.N--..TM..---..--V.--..---.....P..T-----V.  443
+XP_037300573.1  410  E.D-----TDAIV.L.--.N--..TM..---..--V.--..---.....P..T-----V.  445
+XP_030033394.1  410  E.D-----TDAIV.L.--.N--..TM..---..--V.--..---.....P..T-----V.  445
+XP_037300572.1  544  E.D-----TDAIV.L.--.N--..TM..---..--V.--..---.....P..T-----V.  579
+XP_008184380.1  413  E.D-----TDAII.L.--.N--..TM..---..--V.--..---.....P..T-----V.  448
+NP_001156420.1  413  E.D-----TDAII.L.--.N--..TM..---..--V.--..---.....P..T-----V.  448
+XP_037303050.1  377  ERHE.---...L..I.--.V--.....V---..--SR--..---.Y.IV...T-----S.  414
+XP_001950499.3  424  S-------VT....L.--.T--......---..--M.--..---F.S..S..T-----T.  457
+XP_016929350.1  431  .-------VT....L.--.T--......---..--L.--..---F.R..S..T-----T.  464
+XP_037299096.1  438  .-------VT.I..L.--.T--......---..--L.--..---F....T..T-----T.  471
+XP_001951792.1  389  --AVR---VR.FSVT.--IQSF.IE.LW---DP--SD--NSDDGRAEVFPK.H-----AV  429
+XP_030032473.1  389  --AVR---VREFAIT.--.Q--.YAVRLAWDA.--R.ED.D---.EVF------------  422
+XP_030032471.1  389  --AVR---VREFAIT.--.Q--.YAVRLAWDA.--R.ED.D---.EVF------------  422
+XP_030032472.1  389  --AVR---VREFAIT.--.Q--.YAVRLAWDA.--R.ED.D---.EVF------------  422
+XP_037297358.1  389  --AVR---VREFAIT.--.Q--.YAVRLAWDA.--R.ED.D---.EVF------------  422
+XP_016934076.1  382  -PAVR---VREFGVT.--LQ--NYAVKVLW-DS--E.--SA---APGE..--------IF  417
+XP_036672308.1  382  -PAVR---VREFGVT.--LQ--NYAVKVLW-DS--E.--SA---APGE..--------IF  417
+XP_016934075.1  382  -PAVR---VREFGVT.--LQ--NYAVKVLW-DS--E.--SA---APGE..--------IF  417
+XP_016934074.1  382  -PAVR---VREFGVT.--LQ--NYAVKVLW-DS--E.--SA---APGE..--------IF  417
+XP_016934073.1  382  -PAVR---VREFGVT.--LQ--NYAVKVLW-DS--E.--SA---APGE..--------IF  417
+XP_001945768.2  387  YWNAHDDLPEPTTE..--TL--NE.IT.---DC--C.--ET---VS--FDQ.E-----IL  425
+XP_036676745.1  414  --GF.---VKKFVVK.--ATLF..QVSF---.RDPGE--.A---AV.QVK.VLFALMNPY  458
+XP_016939207.1  414  --GF.---VKKFVVK.--ATLF..QVSF---.RDPGE--.A---AV.QVK.VLFALMNPY  458
+XP_016939206.1  414  --GF.---VKKFVVK.--ATLF..QVSF---.RDPGE--.A---AV.QVK.VLFALMNPY  458
+XP_030037218.2  419  GYKVA---ALN.RDAV--LL--.IQVVF---NR--HV--DG---ND...K.TLFGPMNPY  461
+XP_016656095.1  281  --GF.---VNTFITK.ATMF--.IE.KF---NR--EK--KY---ESEP.KQVR-----..  318
+XP_016656094.1  281  --GF.---VNTFITK.ATMF--.IE.KF---NR--EK--KY---ESEP.KQVR-----..  318
+
+Query_1         419  PCKQTKTFS-----TYAD-NQPG-VSIQVYEGERAMTKDN--NALGTFD-----LSGIPP  464
+XP_016926534.2  419  .........-----..S.-....-................--.......-----......  464
+XP_036673283.1  418  ....S...T-----....-...A-.T...F.....L....--.V....N-----.T....  463
+XP_030038133.2  419  ....SQ..T-----..S.-...A-.T..............--.L.....-----.T....  464
+XP_037294571.1  419  ....SQ..T-----..S.-...A-.T..............--.L.....-----.T....  464
+XP_037301452.1  419  ....SQ..T-----..S.-...A-.T..............--.L.....-----.T....  464
+XP_030032651.1  419  ....SQ..T-----..S.-...A-.T..............--.L.....-----.T....  464
+XP_030034373.2  419  .....Q..T-----....-...A-.TV.............--.L..R..-----.T....  464
+XP_030035393.1  419  .....Q..T-----....-...A-.TV.............--.L..R..-----.T....  464
+XP_001951915.1  422  .....Q..T-----....-...A-.TV..F..........--.L.....-----.T....  467
+XP_008190051.1  422  .....Q..T-----....-...A-.TV..F.....L....--.L....N-----.T....  467
+XP_001945786.2  422  .....Q..T-----....-...A-.T...F..........--.L.....-----.T....  467
+XP_001949837.1  422  ....QQ..T-----..S.-..AA-.T.T............--.L....N-----.T....  467
+XP_016941530.2  422  ....QQ..T-----..S.-..NA-.T..............--.L....N-----.T....  467
+XP_030028765.1  421  .T...Q..T-----..S.-....-.L...F..........--.L..K.E-----.T....  466
+XP_001951207.1  422  .T...Q..T-----..S.-....-.L..............--.L..K.E-----.TS...  467
+XP_016933935.1  421  .T...QI.T-----....-....-.L...F.......R..--.S..K.E-----..A...  466
+XP_016933934.1  421  .T...QI.T-----....-....-.L...F.......R..--.S..K.E-----..A...  466
+XP_003244048.1  422  .T...Q..T-----..S.-....-.L..............--.L..K.E-----.TA...  467
+XP_016923486.2  421  .T...Q..T-----..S.-....-.L..............--.L.XK.E-----......  466
+XP_030020254.2  420  .IA.K.I.T-----....-...A-.T..IF.......R..--.L....N-----.T....  465
+XP_003248918.1  284  .....Q..T-----....-...A-.T...F..........--.L.....-----.T....  329
+XP_016923990.1  444  .T.KSQV..-----.AS.-..HT-.T........P.....--HL..K..-----.T....  489
+XP_016923989.1  444  .T.KSQV..-----.AS.-..HT-.T........P.....--HL..K..-----.T....  489
+XP_016923987.1  444  .T.KSQV..-----.AS.-..HT-.T........P.....--HL..K..-----.T....  489
+XP_037300573.1  446  .T.KSQI..-----.AS.-..HT-.T........P.....--HL..K..-----.T....  491
+XP_030033394.1  446  .T.KSQI..-----.AS.-..HT-.T........P.....--HL..K..-----.T....  491
+XP_037300572.1  580  .T.KSQI..-----.AS.-..HT-.T........P.....--HL..K..-----.T....  625
+XP_008184380.1  449  .T.KSQI..-----.A..-..NT-.T...F....P.....--HL..K..-----.T....  494
+NP_001156420.1  449  .T.KSQI..-----.A..-..NT-.T...F....P.....--HL..K..-----.T....  494
+XP_037303050.1  415  ..RL..DLT-----.LD.-Y.NT-MT.EIF....SL....--.L..V..-----.R....  460
+XP_001950499.3  458  .T.KSQV..-----.A..-S.TQ-.E.K.FQ....IAA..--KP..Q.S-----.V....  503
+XP_016929350.1  465  .T.KSQV..-----.AS.-G.TQ-.E.K.HQ...E.AN..--KL..S.T-----.V....  510
+XP_037299096.1  472  .T.KSQV..-----.A..-G.TQ-.E.K.HQ...E.AS..--KL..Q.S-----.V....  517
+XP_001951792.1  430  .FSKMLS.Y-----RL.----.F-TVKAH.S.--PIPYAD--SYI.Q.T-----VRDVK.  470
+XP_030032473.1  423  .AFHSAP..KML--.FYR-KE.--F.VSA.YSDQVPCP.---SFI.QWH-----IRD.Q.  469
+XP_030032471.1  423  .AFHSAP..KML--.FYR-KE.--F.VSA.YSDQVPCP.---SFI.QWH-----IRD.Q.  469
+XP_030032472.1  423  .AFHSAP..KML--.FYR-KE.--F.VSA.YSDQVPCP.---SFI.QWH-----IRD.Q.  469
+XP_037297358.1  423  .AFHSAP..KML--.FYR-KE.--F.VSA.YSDQVPCP.---SFI.QWH-----IRD.Q.  469
+XP_016934076.1  418  .QYHASP..-----RLLTI.RK.PFNVSIVY.QQVPYP.---QTI.VWK-----VKDVK.  464
+XP_036672308.1  418  .QYHASP..-----RLLTI.RK.PFNVSIVY.QQVPYP.---QTI.VWK-----VKDVK.  464
+XP_016934075.1  418  .QYHASP..-----RLLTI.RK.PFNVSIVY.QQVPYP.---QTI.VWK-----VKDVK.  464
+XP_016934074.1  418  .QYHASP..-----RLLTI.RK.PFNVSIVY.QQVPYP.---QTI.VWK-----VKDVK.  464
+XP_016934073.1  418  .QYHASP..-----RLLTI.RK.PFNVSIVY.QQVPYP.---QTI.VWK-----VKDVK.  464
+XP_003248625.2  1                                       .....--.L..K.E-----.TS...  18
+XP_001945768.2  426  .STKSI.T.-----ANV.-.                                          439
+XP_036676745.1  459  .Q.KVI..N-----KHT.-D                                          472
+XP_016939207.1  459  .Q.KVI..N-----KHT.-D                                          472
+XP_016939206.1  459  .Q.KVI..N-----KHT.-D                                          472
+XP_030037218.2  462  .Q.KVI..N-----KHT.-DF-T-FNVNYA.L.HIPSNEL--KYV.ALNLTQVS...VAA  511
+XP_016656095.1  319  LFSYM.PYPQRKIV.FIN-HKLD-FDFT.GYA.LNHLDE.EIRC..SLS-----.DH.--  369
+XP_016656094.1  319  LFSYM.PYPQRKIV.FIN-HKLD-FDFT.GYA.LNHLDE.EIRC..SLS-----.DH.--  369
+
+Query_1         465  A-----PRGVP---------------Q--IEVTFDLDANGILNVSA--------------  488
+XP_016926534.2  465  .-----.....---------------.--......M........T.--------------  488
+XP_036673283.1  464  .-----.....---------------K--.D.............T.--------------  487
+XP_030038133.2  465  .-----.....---------------K--.D....M..........--------------  488
+XP_037294571.1  465  .-----.....---------------K--.D....M..........--------------  488
+XP_037301452.1  465  .-----.....---------------K--.D....M..........--------------  488
+XP_030032651.1  465  .-----.....---------------K--.D....M..........--------------  488
+XP_030034373.2  465  .-----.....---------------K--.D.............T.--------------  488
+XP_030035393.1  465  .-----.....---------------K--.D....M........T.--------------  488
+XP_001951915.1  468  .-----.....---------------K--......M..........--------------  491
+XP_008190051.1  468  .-----A....---------------K--......M..........--------------  491
+XP_001945786.2  468  .-----.....---------------K--......M..........--------------  491
+XP_001949837.1  468  .-----.....---------------K--.................--------------  491
+XP_016941530.2  468  .-----.....---------------.--...A...N.D.....N.--------------  491
+XP_030028765.1  467  .-----.....---------------.--......I..........--------------  490
+XP_001951207.1  468  .-----.....---------------.--......I..........--------------  491
+XP_016933935.1  467  .-----.....---------------.--V.....I........T.--------------  490
+XP_016933934.1  467  .-----.....---------------.--V.....I........T.--------------  490
+XP_003244048.1  468  .-----.....---------------.--......I..........--------------  491
+XP_016923486.2  467  .-----.....---------------.--......I...X....T.--------------  490
+XP_030020254.2  466  .-----.....---------------.--......I..........--------------  489
+XP_003248918.1  330  .-----.....---------------K--......M..........--------------  353
+XP_016923990.1  490  .-----...I.---------------.--...S.EI......Q...--------------  513
+XP_016923989.1  490  .-----...I.---------------.--...S.EI......Q...--------------  513
+XP_016923987.1  490  .-----...I.---------------.--...S.EI......Q...--------------  513
+XP_037300573.1  492  .-----...I.---------------.--.....EI......Q...--------------  515
+XP_030033394.1  492  .-----...I.---------------.--.....EI......Q...--------------  515
+XP_037300572.1  626  .-----...I.---------------.--.....EI......Q...--------------  649
+XP_008184380.1  495  .-----.....---------------.--.....EI......Q...--------------  518
+NP_001156420.1  495  .-----.....---------------.--.....EI......Q...--------------  518
+XP_037303050.1  461  .-----....A---------------K--VDI...I......S.T.--------------  484
+XP_001950499.3  504  .-----.....---------------.--......I.....VH...--------------  527
+XP_016929350.1  511  .-----.....---------------.--...V..I.....VH...--------------  534
+XP_037299096.1  518  .-----.....---------------.--......I.....VH...--------------  541
+XP_001951792.1  471  T-----AD.AS---------------.K-VK.KARINLH..FSI.SATLLEKAELLEETP  509
+XP_030032473.1  470  T-----AE.ES---------------.K-VKLKVRVNIH..IT.AS--------------  494
+XP_030032471.1  470  T-----AE.ES---------------.K-VKLKVRVNIH..IT.AS--------------  494
+XP_030032472.1  470  T-----AE.ES---------------.K-VKLKVRVNIH..IT.AS--------------  494
+XP_037297358.1  470  T-----AE.ES---------------.K-VKLKVRVNIH..IT.AS--------------  494
+XP_016934076.1  465  T-----E..EG---------------.D-VKLKVRINN...VLI.S--------------  489
+XP_036672308.1  465  T-----E..EG---------------.D-VKLKVRINN...VLI.S--------------  489
+XP_016934075.1  465  T-----E..EG---------------.D-VKLKVRINN...VLI.S--------------  489
+XP_016934074.1  465  T-----E..EG---------------.D-VKLKVRINN...VLI.S--------------  489
+XP_016934073.1  465  T-----E..EG---------------.D-VKLKVRINN...VLI.S--------------  489
+XP_003248625.2  19   .-----.....---------------.--......I..........--------------  42
+XP_030037218.2  512  .LNKHTAENIE---------------HKG.KAH.NM.DS....LVN--------------  542
+XP_029345877.1  94                                  L...M.........S--------------  108
+XP_016656095.1  370  K-----LK..QNAYSKYEDEENTDPNK--.NLH.IM..S...VLEN--------------  408
+XP_016656094.1  370  K-----LK..QNAYSKYEDEENTDPNK--.NLH.IM..S...VLEN--------------  408
+
+Query_1         489  -----------------------KEM--------------------STGK---AKN----  498
+XP_016926534.2  489  -----------------------...--------------------....---...----  498
+XP_036673283.1  488  -----------------------..Q--------------------G..N---...----  497
+XP_030038133.2  489  -----------------------..N--------------------...R---S..----  498
+XP_037294571.1  489  -----------------------..N--------------------...R---S..----  498
+XP_037301452.1  489  -----------------------..N--------------------...R---S..----  498
+XP_030032651.1  489  -----------------------..N--------------------...R---S..----  498
+XP_030034373.2  489  -----------------------..N--------------------.S.R---SQ.----  498
+XP_030035393.1  489  -----------------------..N--------------------.S.R---SQ.----  498
+XP_001951915.1  492  -----------------------.DN--------------------.S.R---S..----  501
+XP_008190051.1  492  -----------------------.DN--------------------.S.R---S..----  501
+XP_001945786.2  492  -----------------------..N--------------------.S.R---S..----  501
+XP_001949837.1  492  -----------------------..I--------------------....---SER----  501
+XP_016941530.2  492  -----------------------.DN--------------------....---TEK----  501
+XP_030028765.1  491  -----------------------V.K--------------------..N.---ENK----  500
+XP_001951207.1  492  -----------------------I.K--------------------..N.---ENK----  501
+XP_016933935.1  491  -----------------------L.K--------------------....---ENR----  500
+XP_016933934.1  491  -----------------------L.K--------------------....---ENR----  500
+XP_003244048.1  492  -----------------------I.K--------------------..N.---ENK----  501
+XP_016923486.2  491  -----------------------L.R--------------------..N.---ENK----  500
+XP_030020254.2  490  -----------------------HDK--------------------...R---SEH----  499
+XP_003248918.1  354  -----------------------..N--------------------.S.R---S..----  363
+XP_016923990.1  514  -----------------------EDK--------------------G..N---KEK----  523
+XP_016923989.1  514  -----------------------EDK--------------------G..N---KEK----  523
+XP_016923987.1  514  -----------------------EDK--------------------G..N---KEK----  523
+XP_037300573.1  516  -----------------------EDK--------------------G..N---REK----  525
+XP_030033394.1  516  -----------------------EDK--------------------G..N---REK----  525
+XP_037300572.1  650  -----------------------EDK--------------------G..N---REK----  659
+XP_008184380.1  519  -----------------------EDK--------------------G..N---REK----  528
+NP_001156420.1  519  -----------------------EDK--------------------G..N---REK----  528
+XP_037303050.1  485  -----------------------EDR--------------------...H---KNG----  494
+XP_001950499.3  528  -----------------------RDK--------------------G..R---EQQ----  537
+XP_016929350.1  535  -----------------------.DK--------------------G...---EQQ----  544
+XP_037299096.1  542  -----------------------RDK--------------------G...---EQQ----  551
+XP_001951792.1  510  PSEPMESNENEPQPAEPEEKKEE.KK--------------------.VT.---TID----  542
+XP_030032473.1  495  -----------------------ASL--------------------VEK.QDA.Q.----  507
+XP_030032471.1  495  -----------------------ASL--------------------VEK.QDA.Q.----  507
+XP_030032472.1  495  -----------------------ASL--------------------VEK.QDA.Q.----  507
+XP_037297358.1  495  -----------------------ASL--------------------VEK.QDA.Q.----  507
+XP_016934076.1  490  -----------------------ATLVEKKEAEEAAAAAEQAASEEKA.E---QA.NAGE  523
+XP_036672308.1  490  -----------------------ATL                                    492
+XP_016934075.1  490  -----------------------ATL                                    492
+XP_016934074.1  490  -----------------------ATL                                    492
+XP_016934073.1  490  -----------------------ATL                                    492
+XP_003248625.2  43   -----------------------I.K--------------------..N.---ENK----  52
+XP_030037218.2  543  -----------------------V.F--------------------VA-----E.T----  550
+XP_029345877.1  109  -----------------------.DN--------------------.S.R---S..----  118
+XP_016656095.1  409  -----------------------V.F--------------------.I..---S        416
+XP_016656094.1  409  -----------------------V.F--------------------.I..---S        416
+
+Query_1         499  --------------------ITIK----NDKGR---------------------------  507
+XP_016926534.2  499  --------------------....----.....---------------------------  507
+XP_036673283.1  498  --------------------....----.....---------------------------  506
+XP_030038133.2  499  --------------------.V..----..R..---------------------------  507
+XP_037294571.1  499  --------------------.V..----..R..---------------------------  507
+XP_037301452.1  499  --------------------.V..----..R..---------------------------  507
+XP_030032651.1  499  --------------------.V..----..R..---------------------------  507
+XP_030034373.2  499  --------------------.V..----.....---------------------------  507
+XP_030035393.1  499  --------------------.V..----.....---------------------------  507
+XP_001951915.1  502  --------------------.V..----.....---------------------------  510
+XP_008190051.1  502  --------------------.V..----.....---------------------------  510
+XP_001945786.2  502  --------------------.V..----.....---------------------------  510
+XP_001949837.1  502  --------------------....----.....---------------------------  510
+XP_016941530.2  502  --------------------...T----.....---------------------------  510
+XP_030028765.1  501  --------------------...T----.....---------------------------  509
+XP_001951207.1  502  --------------------...T----.....---------------------------  510
+XP_016933935.1  501  --------------------...T----.....---------------------------  509
+XP_016933934.1  501  --------------------...T----.....---------------------------  509
+XP_003244048.1  502  --------------------...T----.....---------------------------  510
+XP_016923486.2  501  --------------------...T----.....---------------------------  509
+XP_030020254.2  500  --------------------...S----..T..---------------------------  508
+XP_003248918.1  364  --------------------.V..----.....---------------------------  372
+XP_016923990.1  524  --------------------.V.T----..QN.---------------------------  532
+XP_016923989.1  524  --------------------.V.T----..QN.---------------------------  532
+XP_016923987.1  524  --------------------.V.T----..QN.---------------------------  532
+XP_037300573.1  526  --------------------.V.T----..QN.---------------------------  534
+XP_030033394.1  526  --------------------.V.T----..QN.---------------------------  534
+XP_037300572.1  660  --------------------.V.T----..QN.---------------------------  668
+XP_008184380.1  529  --------------------.V.T----..QN.---------------------------  537
+NP_001156420.1  529  --------------------.V.T----..QN.---------------------------  537
+XP_037303050.1  495  --------------------.I..----.E-N.---------------------------  502
+XP_001950499.3  538  --------------------.S.Q----SSG.----------------------------  545
+XP_016929350.1  545  --------------------.V.Q----SSG.----------------------------  552
+XP_037299096.1  552  --------------------.V.Q----SSG.----------------------------  559
+XP_001951792.1  543  --------------------LR.E----SLTHG---------------------------  551
+XP_030032473.1  508  --------------------ES.EMENA..NAQNQDAPMDTSGSAQDQQQNGPDSQEDKS  547
+XP_030032471.1  508  --------------------ES.EMENA..NAQ---------------------------  520
+XP_030032472.1  508  --------------------ES.EMENA..NAQ---------------------------  520
+XP_037297358.1  508  --------------------ES.EMENA..NAQ---------------------------  520
+XP_016934076.1  524  PTDGQQEGADKKKKASKATELPLE----CTTHG---------------------------  552
+XP_003248625.2  53   --------------------...T----.....---------------------------  61
+XP_030037218.2  551  --------------------V.ED----D..                               557
+XP_029345877.1  119  --------------------.V..----.....---------------------------  127
+
+Query_1         508  ----------------------LSQAEIDRMVNEAEKYADEDEKHRQRITSRNALESYVF  545
+XP_016926534.2  508  ----------------------......................Q...............  545
+XP_036673283.1  507  ----------------------....D....LS......E...R.....AA..Q......  544
+XP_030038133.2  508  ----------------------......E..LA...R.KE....Q...VAA..Q..A...  545
+XP_037294571.1  508  ----------------------......E..LA...R.KE....Q...VAA..Q..A...  545
+XP_037301452.1  508  ----------------------......E..LA...R.KE....Q...VAA..Q..A...  545
+XP_030032651.1  508  ----------------------......E..LA...R.KE....Q...VAA..Q..A...  545
+XP_030034373.2  508  ----------------------..R.......E...R.KE...RQ.R.VEA..Q..T.A.  545
+XP_030035393.1  508  ----------------------..R.......E...R.KE...RQ.R.VEA..Q..T.A.  545
+XP_001951915.1  511  ----------------------.........LS...R.KE...RQKVK.AAK.Q......  548
+XP_008190051.1  511  ----------------------.........LS...R.KE...RQKVK.AAK.Q......  548
+XP_001945786.2  511  ----------------------.........LSD..R.KE...RQKVK.AAK.Q......  548
+XP_001949837.1  511  ----------------------..KED..K.LK...M.RQ....QKE.V.A..Q....A.  548
+XP_016941530.2  511  ----------------------..K......LS.....KV..DRQ.E.VQ...N..G.IY  548
+XP_030028765.1  510  ----------------------..KE..E.........RN....QKET.QAK......C.  547
+XP_001951207.1  511  ----------------------..KED.E....D....KN...QQKNI.AAK.G....C.  548
+XP_016933935.1  510  ----------------------..KED.E....D..A.RQA..QQ.D..NAK.Q....C.  547
+XP_016933934.1  510  ----------------------..KED.E....D..A.RQA..QQ.D..NAK.Q....C.  547
+XP_003244048.1  511  ----------------------..KED.E....D....KN....QKGV.AAK.G....C.  548
+XP_016923486.2  510  ----------------------..KED.E.........RN....QKET.SAK.G....C.  547
+XP_030020254.2  509  ----------------------..KRD.EK.LSD...FKT..DAV.K.VEV..Q..G.LY  546
+XP_003248918.1  373  ----------------------.........LSD..R.KE...RQKVK.AAK.Q......  410
+XP_016923990.1  533  ----------------------.TPED....IRD...F....K.LKE.VE...E....SY  570
+XP_016923989.1  533  ----------------------.TPED....IRD...F....K.LKE.VE...E....SY  570
+XP_016923987.1  533  ----------------------.TPED....IRD...F....K.LKE.VE...E....SY  570
+XP_037300573.1  535  ----------------------.TPED.E..IKD...F..D.K.LKE.VE...E....AY  572
+XP_030033394.1  535  ----------------------.TPED.E..IKD...F..D.K.LKE.VE...E....AY  572
+XP_037300572.1  669  ----------------------.TPED.E..IKD...F..D.K.LKE.VE...E....AY  706
+XP_008184380.1  538  ----------------------.TPDD.E..IK....F..D.K.LKE.VE...D....AY  575
+NP_001156420.1  538  ----------------------.TPDD.E..IK....F..D.K.LKE.VE...D....AY  575
+XP_037303050.1  503  ----------------------...Q..GK.IAD..LFRE..RENKRKLE...Q..T.I.  540
+XP_001950499.3  546  ----------------------..KD..EN..KN..Q..QQ.QVKKD.VEAL.QAD.I.   582
+XP_016929350.1  553  ----------------------..KD..EN.IKK..E..TA.KQK.EL.EIV.QG..I.H  590
+XP_037299096.1  560  ----------------------..KD..EN..KA..QF.AT.KQR.E.VEVA.QA.GVLH  597
+XP_001951792.1  552  ----------------------Y.TMDLNNYIEQEG.MVAS.RQEKE..DV..S..E.IY  589
+XP_030032473.1  548  KDKSKKVIVKTIELPIDAQTHGF..Q.LNSYMEQEG.MQAQ.RQEKE.ADA.....E..Y  607
+XP_030032471.1  521  ----------------------NQD.PM.                                 527
+XP_030032472.1  521  ----------------------NQD.PM.                                 527
+XP_037297358.1  521  ----------------------NQD.PM.                                 527
+XP_016934076.1  553  ----------------------F.PVDLGNYTQQES.MIGN.Q.ETE..DAK....EF.Y  590
+XP_003248625.2  62   ----------------------..KED.E....D....KN...QQKNI.AAK.G....C.  99
+XP_029345877.1  128  ----------------------.........LS...R.KE...RQKVK.AAK.Q.....Y  165
+
+Query_1         546  NVKQAV--E----QAPAGK--LDEADKNSVLDKCNDTIRWL-DSNTTAEKEEFDHKLEEL  596
+XP_016926534.2  546  ....S.--.----......--......T.............-.G................  596
+XP_036673283.1  545  S..E.A--.----.G-GDR--ISA...S...ER.SE.VK..-.G........YE...Q..  594
+XP_030038133.2  546  S....L--D----D.-GD.--.S.S..STARSA.DEAL...-.N..L..Q..YE...KD.  595
+XP_037294571.1  546  S....L--D----D.-GD.--.S.S..STARSA.DEAL...-.N..L..Q..YE...KD.  595
+XP_037301452.1  546  S....L--D----D.-GD.--.S.S..STARSA.DEAL...-.N..L..Q..YE...KD.  595
+XP_030032651.1  546  S....L--D----D.-GD.--.S.S..STARSA.DEAL...-.N..L..Q..YE...KD.  595
+XP_030034373.2  546  ..R..L--D----E.-GER--.A.Q..ATARSA.E.AL...-.N.AL..RD.YE...R..  595
+XP_030035393.1  546  ..R..L--D----E.-GER--.A.Q..ATARSA.E.AL...-.N.AL..RD.YE...R..  595
+XP_001951915.1  549  G....L--D----E.-GD.--.T.SE..TGKKE.EAV.Q..-...QL.....YEF..K.I  598
+XP_008190051.1  549  G....L--D----E.-GD.--.T.SE..A.KKE.EAV.Q..-...QL.....YEF..K.I  598
+XP_001945786.2  549  G....L--D----E.-GD.--.T.SER.TGKQE.DAVVQ..-.N.QL.D...YEY..K.I  598
+XP_001949837.1  549  S....I--.----E.-GS.--.P.T..KTI.ES.KAV.T..-ET..L.D.D..ED..KD.  598
+XP_016941530.2  549  SCR...--D----E..S.V--.S.S.RSK.RE...SEAT..-.K.SL......E.H.QDC  599
+XP_030028765.1  548  .M.STM--.D---EKLKD.--ISDS..QTI........K..-...QL.D...YE..QK..  599
+XP_001951207.1  549  .M.STM--.D---EKIKE.--IP.S...TI.E.V.E..K..-.A.QL.....YE..QK..  600
+XP_016933935.1  548  QLRSTLD-D----EQLSSR--FSP..RETIQQRSSE..A..-.A.QL..RQ..E..QQ..  599
+XP_016933934.1  548  QLRSTLD-D----EQLSSR--FSP..RETIQQRSSE..A..-.A.QL..RQ..E..QQ..  599
+XP_003244048.1  549  .M.STM--.D---EKIKD.--IPDS..TTIM..V....K..-.A.QL.D...YE..QK..  600
+XP_016923486.2  548  .M.ATLD-.----DNLKT.--ISDS.RTVI.....E..K..-.A.QL.D...YE.RQK..  599
+XP_030020254.2  547  GC.T.A--.----S.-GNR--.TDNERDA.INE..TQL...-ET.PE.SQA.LERR.KDA  596
+XP_003248918.1  411  G....L--D----E.-GD.--.T.SER.TGKQE.DAVVQ..-.N.QL.D...YEY..K.I  460
+XP_016923990.1  571  SL.NQIGDK----DKLGS.--.TDEE.TKLESAIDES.K..-EQ.PD.DP..YKKQKKD.  623
+XP_016923989.1  571  SL.NQIGDK----DKLGS.--.TDEE.TKLESAIDES.K..-EQ.PD.DP..YKKQKKD.  623
+XP_016923987.1  571  SL.NQIGDK----DKLGS.--.TDEE.TKLESAIDES.K..-EQ.PD.DP..YKKQKKD.  623
+XP_037300573.1  573  SI.NQL--QDK--EKLGA.--VSDDE.AKMEEAIDAA.K..-ED.QD.DS..YKKQKKAV  625
+XP_030033394.1  573  SI.NQL--QDK--EKLGA.--VSDDE.AKMEEAIDAA.K..-ED.QD.DS..YKKQKKAV  625
+XP_037300572.1  707  SI.NQL--QDK--EKLGA.--VSDDE.AKMEEAIDAA.K..-ED.QD.DS..YKKQKKAV  759
+XP_008184380.1  576  SL.NQIGDK----EKLG..--.SD.E.TKMEEIIDAK.K..-.E.QD.DP.QYKTQKT..  628
+NP_001156420.1  576  SL.NQIGDK----EKLG..--.SD.E.TKMEEIIDAK.K..-.E.QD.DP.QYKTQKT..  628
+XP_037303050.1  541  .I.NT.--K----ENK-.N--.T.E.AVFMEKESQLAMA..-.D.PDCLR...ER..T..  590
+XP_016929350.1  591  DTETKM--.EFKS.L..EE--CEKLK.-----EIA.LRTL.-ANKE..DL..          632
+XP_037299096.1  598  DTET--------------.--M..YKSQLPQ.E.D                           616
+XP_001951792.1  590  DMRSR.SS.----DDL.SY--IID..RQKIVKQLEELEA..                     624
+XP_030032473.1  608  ELRGKL--C----AGA.LHDFVPDEQRARLVAHLDQLEQ..Y.EGEDQNRQVYSD..T..  661
+XP_016934076.1  591  DMRNKL--Q----GG.LERF-IV..EREAIVAQL..LEN..YEDGEDC.R.TYTNR.QA.  643
+XP_003248625.2  100  .M.STM--.D---EKIKE.--IP.S...TI.E.V.E..K..-.A.QL.....YE..QK..  151
+XP_029345877.1  166  G....L--D----E.-GD.--.T.SE..TGKRE.DAV.Q..-.N.QL.D...YEY..K.I  215
+
+Query_1         597  TRHCSPIMTKM--HQQGAG-AG-AGGPGA-NCGQQAGGFGGY--S--GPTVEEVD  642
+XP_016926534.2  597  ...........--...A..-..A......-............--.--........  643
+XP_036673283.1  595  .QF........--...AG.-D.-R-QQAP-......---...--K--........  636
+XP_030038133.2  596  Q.V...V....--.GGAGA-G------A.-PG...---H.RA--D--........  633
+XP_037294571.1  596  Q.V...V....--.GGAGA-G------A.-PG...---H.RA--D--........  633
+XP_037301452.1  596  Q.V...V....--.GGTGA-G-------.-AP.G.QH.R.----D--........  633
+XP_030032651.1  596  Q.V...V....--.GGTGA-G-------.-AP.G.QH.R.----D--........  633
+XP_030034373.2  596  QQA.....S.L--.----.-.A-.D.NRQ-QQQ..QRQQY.---T--........  636
+XP_030035393.1  596  QQA.....S.L--.----.-.A-.D.NRQ-QQQ..QRQQY.---T--........  636
+XP_001951915.1  599  QNS..AL.L.I--.-------.-..Q...T.APPG.N..P.ARPR--........  641
+XP_008190051.1  599  QNS..AL.L.I--.-------.-..Q...T.APPG.N..P.A--CPR........  641
+XP_001945786.2  599  QKS..SL.M.I--.--...Q..-DVP...-H------..P.S--R--........  637
+XP_001949837.1  599  QKE.......L--..A..--------------------------K--..N.....  623
+XP_016941530.2  600  Q.I.....S.L--.----------A..K----.K.STSA.NG--A--H.......  634
+XP_030028765.1  600  EGI.N..I..L--Y.                                          612
+XP_001951207.1  601  EGI.N..I..L--Y                                           612
+XP_016933935.1  600  E.I....I.RL--Y.---.-S.-MAP.PP-PT.GSNS.AT.G--.--...I....  642
+XP_016933934.1  600  E.I....I.RL--Y.---.-S.-MAP.PP-PT.GSNS.AT.G--.--...I....  642
+XP_003244048.1  601  ESI.N..I..L--Y                                           612
+XP_016923486.2  600  EGV.N..I..L--Y.                                          612
+XP_030020254.2  597  QKV.Q.A.M.L--.GT.G.-PS-Y.R.ES-P-------------G--..R.....  631
+XP_003248918.1  461  QKS..SL.M.I--.--...Q..-DVP...-H------..P.S--R--........  499
+XP_016923990.1  624  EAIVQ.VIA.L--Y.GTG.-.                                    641
+XP_016923989.1  624  EAIVQ.VIA.L--Y.GTG.-.                                    641
+XP_016923987.1  624  EAIVQ.VIA.L--Y.GTG.-.                                    641
+XP_037300573.1  626  EDVVQ..IA.L--Y-..Q.--.-VPX...                            648
+XP_030033394.1  626  EDVVQ..IA.L--Y.GQG.-VP-PP.A.                             649
+XP_037300572.1  760  EDVVQ..IA.L--Y.GQG.-VP-PP.A.                             783
+XP_008184380.1  629  ESVVN..IS.L--YASTG.-V                                    646
+NP_001156420.1  629  ESVVN..IS.L--YASTG.-V                                    646
+XP_037303050.1  591  M.RW.V..K.L                                              601
+XP_030032473.1  662  KTEGE..                                                  668
+XP_016934076.1  644  HQKTD..KLRASDYE..PA-.                                    663
+XP_003248625.2  152  EGI.N..I..L--Y                                           163
+XP_029345877.1  216  QKS..AL.M.I--.----.-..-QP.NAS-HP.AHGFPGP.S--G--........  257
+
+
+Lambda      K        H        a         alpha
+   0.314    0.133    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 20809949692
+
+
+  Database: genome.faa
+    Posted date:  Jun 24, 2023  2:50 PM
+  Number of letters in database: 48,645,558
+  Number of sequences in database:  78,301
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

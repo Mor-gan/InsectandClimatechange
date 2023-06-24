@@ -1,0 +1,100 @@
+BLASTP 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: genome.faa
+           78,301 sequences; 48,645,558 total letters
+
+
+
+Query= ACD81863.1_LP07623p_Drosophila_melanogaster
+
+Length=286
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+XP_016930972.2 dentin sialophosphoprotein [Drosophila suzukii]        250        1e-79
+
+
+
+Query_1         1    MKVLTLILFTALVAVASGRPNGGWFGNFGSNWARRFGWGSGDDEIVQEQRWNSQNQWNPN  60
+XP_016930972.2  1    MKVLTLVLFTALVAVAVGRPNGGWFGNLGGSWAKTFGWGSDDSQNVQEQKWNGQNQWNGH  60
+
+Query_1         61   GNGQGQWDGENGQGQSHGNNQGLGQGNGHGNNHHGHHGNSHGHGNGQGHGGQRPPPPPPT  120
+XP_016930972.2  61   GNGQGQWNGGNGHGQWNGNNHGHGQSNHGNGHGNGHGNGHGHDHGHGGHHPPPPPPPPTT  139
+                        \                       \                                
+                        |                       |                                
+                       QA       ENNHDHGHGNNHGHGNG
+
+Query_1         121  DLPELTTEDDVVSTTDVTSPAEETTLAPEVPEESTSQAPEEITTGSEEGSGSSEDTTTLA  180
+XP_016930972.2  140  DLP----EDDVASTTAVT----------EVPEDSTTQAPEEITTGSEEGSGSTEE-TTLA  184
+XP_016930972.2  243                        ETTQAPEVPEESTTQEPDETTTDSEDGSGSSDETTTLA  308
+                                                                             \   
+                                                                             |   
+                                                  TQAPEDTTTQEPEESTTDSEDGSGSSQV
+XP_016930972.2  305                         TTLAPEVPEDSTTQEPEESTTDSEDGSGSSNE-TTQA  340
+
+Query_1         181  PEVPEESTTQAPEESTTDSEDGSGSEDTTQAPEETTTEEPEESTSEAPEESSSEAPEEST  240
+XP_016930972.2  185  PEVPEESTSQAPEEVTTDSEDGSGSEETTQAPEDSTTQGPEETTTQAP-----EVPEEST  255
+                                                     \          \                
+                                                     |          |                
+                                                   ADS TTDSDDGSGSSDE
+XP_016930972.2  309  PEVPEDSTTQEPEESTTDSEDGSGSSNTTQAPEDSTTQEPEESTTDSEDGSGSEDPEDST  380
+                                                \   \                     \      
+                                                |   |                     |      
+                                                E PED              SNETTQAP
+XP_016930972.2  341  PEDPEDSTTQEPEESTTDSEDGSGSSNTTQAPEDSTTQNPEESTTDSEDGSGSEDPEDST  412
+                                                \   \                     \      
+                                                |   |                     |      
+                                                E PED              SNETTQAP
+
+Query_1         241  TEEPEESTTEAPVESTSEAPEESTTEAPEESTSEAPEESTIDSSAV  286
+XP_016930972.2  256  TQEPDETTTDAPEDTTTQEPEESTTEVPEDSTTQEPEESTTDS     327
+                               \              \                    
+                               |              |                    
+                     SEDGSGSSDETTQ DSEDGSGSSQVTTLAP
+XP_016930972.2  381  TQNPEESTTEDPEDSTTQEPEESTTEVPEDSTTQEPEESTTDS     455
+                              \               \                    
+                              |               |                    
+                     DSEDGSGSSNETTQAP DSEDGSGSSEVTTLAP
+XP_016930972.2  413  TQEPEESTTEVPEDSTTQEPEESTTDSEDSTTSEEPQDSTTDSSAA  476
+                              \                      \             
+                              |                      |             
+                     DSEDGSGSSEVTTLAP               QA
+
+
+Lambda      K        H        a         alpha
+   0.296    0.119    0.340    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7153650900
+
+
+  Database: genome.faa
+    Posted date:  Jun 24, 2023  2:50 PM
+  Number of letters in database: 48,645,558
+  Number of sequences in database:  78,301
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

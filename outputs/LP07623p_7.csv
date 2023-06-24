@@ -2,6 +2,8 @@
 # Query: ACD81863.1_LP07623p_Drosophila_melanogaster
 # Database: ../dbb1/dbGG1
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-ACD81863.1_LP07623p_Drosophila_melanogaster	ACD81863.1_LP07623p_Drosophila_melanogaster	100.000	286	0	0	1	286	1	286	 0.0	   545
+# 3 hits found
+ACD81863.1_LP07623p_Drosophila_melanogaster	ref|XP_016930972.2|	53.026	347	79	10	1	283	1	327	1.21e-79	250
+ACD81863.1_LP07623p_Drosophila_melanogaster	ref|XP_016930972.2|	56.069	173	45	6	144	286	305	476	2.80e-28	114
+ACD81863.1_LP07623p_Drosophila_melanogaster	ref|XP_016930972.2|	47.887	213	39	6	143	283	243	455	1.58e-26	109
 # BLAST processed 1 queries
