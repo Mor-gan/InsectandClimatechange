@@ -30,10 +30,24 @@ alignment view options:
 **8 = Seqalign (Text ASN.1),**
 **9 = Seqalign (Binary ASN.1),**
     10 = Comma-separated values,
+
+
     11 = BLAST archive (ASN.1),
+
+
     12 = Seqalign (JSON),
+
+
     13 = Multiple-file BLAST JSON,
+
+
     14 = Multiple-file BLAST XML2,
+
+
     15 = Single-file BLAST JSON,
+
+
     16 = Single-file BLAST XML2,
+
+    
     18 = Organism Report
