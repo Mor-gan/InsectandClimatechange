@@ -1,0 +1,81 @@
+BLASTP 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: genes.faa
+           2 sequences; 577 total letters
+
+
+
+Query= ACD81863.1_LP07623p_Drosophila_melanogaster
+
+Length=286
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+ACD81863.1_LP07623p_Drosophila_melanogaster unnamed protein product   545        0.0  
+
+
+>ACD81863.1_LP07623p_Drosophila_melanogaster unnamed protein product
+Length=286
+
+ Score = 545 bits (1405),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 286/286 (100%), Positives = 286/286 (100%), Gaps = 0/286 (0%)
+
+Query  1    MKVLTLILFTALVAVASGRPNGGWFGNFGSNWARRFGWGSGDDEIVQEQRWNSQNQWNPN  60
+            MKVLTLILFTALVAVASGRPNGGWFGNFGSNWARRFGWGSGDDEIVQEQRWNSQNQWNPN
+Sbjct  1    MKVLTLILFTALVAVASGRPNGGWFGNFGSNWARRFGWGSGDDEIVQEQRWNSQNQWNPN  60
+
+Query  61   GNGQGQWDGENGQGQSHGNNQGLGQGNGHGNNHHGHHGNSHGHGNGQGHGGQRPPPPPPT  120
+            GNGQGQWDGENGQGQSHGNNQGLGQGNGHGNNHHGHHGNSHGHGNGQGHGGQRPPPPPPT
+Sbjct  61   GNGQGQWDGENGQGQSHGNNQGLGQGNGHGNNHHGHHGNSHGHGNGQGHGGQRPPPPPPT  120
+
+Query  121  DLPELTTEDDVVSTTDVTSPAEETTLAPEVPEESTSQAPEEITTGSEEGSGSSEDTTTLA  180
+            DLPELTTEDDVVSTTDVTSPAEETTLAPEVPEESTSQAPEEITTGSEEGSGSSEDTTTLA
+Sbjct  121  DLPELTTEDDVVSTTDVTSPAEETTLAPEVPEESTSQAPEEITTGSEEGSGSSEDTTTLA  180
+
+Query  181  PEVPEESTTQAPEESTTDSEDGSGSEDTTQAPEETTTEEPEESTSEAPEESSSEAPEEST  240
+            PEVPEESTTQAPEESTTDSEDGSGSEDTTQAPEETTTEEPEESTSEAPEESSSEAPEEST
+Sbjct  181  PEVPEESTTQAPEESTTDSEDGSGSEDTTQAPEETTTEEPEESTSEAPEESSSEAPEEST  240
+
+Query  241  TEEPEESTTEAPVESTSEAPEESTTEAPEESTSEAPEESTIDSSAV  286
+            TEEPEESTTEAPVESTSEAPEESTTEAPEESTSEAPEESTIDSSAV
+Sbjct  241  TEEPEESTTEAPVESTSEAPEESTTEAPEESTSEAPEESTIDSSAV  286
+
+
+
+Lambda      K        H        a         alpha
+   0.296    0.119    0.340    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 131325
+
+
+  Database: genes.faa
+    Posted date:  Jun 21, 2023  8:07 PM
+  Number of letters in database: 577
+  Number of sequences in database:  2
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

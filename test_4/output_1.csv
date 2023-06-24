@@ -1,0 +1,13 @@
+# BLASTP 2.9.0+
+# Query: ACD81863.1_LP07623p_Drosophila_melanogaster
+# Database: dbb1/dbGG1
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+ACD81863.1_LP07623p_Drosophila_melanogaster	ACD81863.1_LP07623p_Drosophila_melanogaster	100.000	286	0	0	1	286	1	286	0.0	545
+# BLASTP 2.9.0+
+# Query: BAK32935.1_aquaporin_Belgica_antarctica
+# Database: dbb1/dbGG1
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+BAK32935.1_aquaporin_Belgica_antarctica	BAK32935.1_aquaporin_Belgica_antarctica	100.000	291	0	0	1	291	1	291	0.0	590
+# BLAST processed 2 queries
