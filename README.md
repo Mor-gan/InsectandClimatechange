@@ -6,8 +6,7 @@
  -outfmt <String>
 alignment view options:
 ```
-   
-     **0 = Pairwise**
+   **0 = Pairwise**
      - Standard BLAST alignment in pairs of query sequence and database match.
      **  = Query-anchored showing identities,**
      - The databases alignments are anchored (shown in relation to) to the query sequence. Identities are displayed as dashes, with mismatches displayed as single letter nucleotide abbreviations.
