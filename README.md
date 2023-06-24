@@ -51,3 +51,28 @@ alignment view options:
 16 = Single-file BLAST XML2,
 
 18 = Organism Report
+
+#  outfmt-0 : 
+
+```
+## Alignment
+
+Query  1    MPAIGIDLGTTYSCVGVYQHGKVEIIANDQGNRTTPSYVAFTDSERLIGDPAKNQVAMNP  60
+            MPAIGIDLGTTYSCVGVYQHGKVEIIANDQGNRTTPSYVAFTDSERLIGD AKNQVAMNP
+Sbjct  1    MPAIGIDLGTTYSCVGVYQHGKVEIIANDQGNRTTPSYVAFTDSERLIGDAAKNQVAMNP  60
+
+
+Query  541  ESYVFNVKQAVEQAPAGKLDEADKNSVLDKCNDTIRWLDSNTTAEKEEFDHKLEELTRHC  600
+            E+YVF+VKQA++ A   KL E+DK++    C++ +RWLD+NT AE+EE++HKL++L R C
+Sbjct  541  EAYVFSVKQALDDA-GDKLSESDKSTARSACDEALRWLDNNTLAEQEEYEHKLKDLQRVC  599
+
+
+Query  601  SPIMTKMHQQGAGAGAGGPGANCGQQAGGFGGYSGPTVEEVD  642
+            SP+MTKMH            A  GQQ    G   GPTVEEVD
+Sbjct  600  SPVMTKMHGGAGAG-----AAPGGQQ---HGRADGPTVEEVD  633
+```
+
+## Description
+ The top row represents your search sequence (Query). The bottom row represents a database sequence, called Subject (Sbjct). Lines connect the matching bases between Query and Subject. Missing lines indicate mismatches. Dashes (-) indicate gaps in the alignment. Gaps represent parts where Query or Subject have no counterpart. In the provided subject sequence, the "+" symbol represents a gap introduced to maximize the alignment with the query sequence. It indicates the presence of one or more residues in the subject sequence that are not present in the query sequence at that position. The gap helps to maintain the alignment and preserve the overall sequence similarity.
+ 
+In the provided alignment, the numbers 601 and 600 refer to the positions or indices of the aligned residues in the query and subject sequences, respectively.
