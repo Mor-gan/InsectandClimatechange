@@ -25,31 +25,29 @@ alignment view options:
 **4 = Flat query-anchored no identities,**
 -  The 'flat' display shows inserts as deletions on the query. Identities are displayed as dashes, with mismatches displayed as single letter nucleotide abbreviations.
 
--  
 **5 = BLAST XML,**
+
 **6 = Tabular,**
+
 **7 = Tabular with comment lines,**
+
 **8 = Seqalign (Text ASN.1),**
+
 **9 = Seqalign (Binary ASN.1),**
-    10 = Comma-separated values,
+
+**10 = Comma-separated values,**
 
 
-    11 = BLAST archive (ASN.1),
+11 = BLAST archive (ASN.1),
 
+12 = Seqalign (JSON),
 
-    12 = Seqalign (JSON),
+13 = Multiple-file BLAST JSON,
 
+14 = Multiple-file BLAST XML2,
 
-    13 = Multiple-file BLAST JSON,
+15 = Single-file BLAST JSON,
 
+16 = Single-file BLAST XML2,
 
-    14 = Multiple-file BLAST XML2,
-
-
-    15 = Single-file BLAST JSON,
-
-
-    16 = Single-file BLAST XML2,
-
-
-    18 = Organism Report
+18 = Organism Report
