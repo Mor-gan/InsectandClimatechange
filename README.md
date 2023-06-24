@@ -19,11 +19,11 @@ alignment view options:
 - The 'flat' display shows inserts as deletions on the query. 
 
 **3 = Flat query-anchored showing identities,**
-- Identities are shown as single letter nucleotide abbreviations.
+- The 'flat' display shows inserts as deletions on the query. Identities are displayed as dashes, with mismatches displayed as single letter nucleotide abbreviations.
 
 
 **4 = Flat query-anchored no identities,**
--  The 'flat' display shows inserts as deletions on the query. Identities are displayed as dashes, with mismatches displayed as single letter nucleotide abbreviations.
+- The 'flat' display shows inserts as deletions on the query. Identities are shown as single letter nucleotide abbreviations.
 
 **5 = BLAST XML,**
 
