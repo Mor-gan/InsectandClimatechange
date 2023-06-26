@@ -80,6 +80,8 @@ In the provided alignment, the numbers 601 and 600 refer to the positions or ind
 
 # outfmt_1
 
+```
+
 ### Alignment
 
 Query_1         1    MTMKYTLGANELSAKTHNLWKSILAEFIGIFILNFFSCAACTQAAFKTGIDTYTRITILA  60
@@ -90,6 +92,8 @@ XP_016930642.1  5       E.S..L...KS.ELR..QALIG..L.NL.....A.G....I---------------
 XP_016930412.1  18                 ENKKI.RML.G.LV.T.F.V.VGVGST.SGSV--------------  49
 XP_036669236.1  15                 ENKKI.RML.G.LV.T.F.V.VGVGST.SGSV--------------  46
 XP_037300778.1  20              ..EV.D.I.RQLI..LA.T.L.TSIGV.S.--------------...AE  56
+
+```
 
 ### Description
 
