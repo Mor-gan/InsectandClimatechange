@@ -106,7 +106,7 @@ In the format shown above, the identical residues are represented by a dot (.) a
 
 ### Description
 
-This format is the same as Option 1 (Figure A-2), but all residues are shown with identities and positives in uppercase and mismatches in lowercase. As with Option 1, insertions and deletions are represented in the subject sequences, but not the query.
+This format is the same as Option 1, but all residues are shown with identities and positives in uppercase and mismatches in lowercase. As with Option 1, insertions and deletions are represented in the subject sequences, but not the query.
 
 # outfmt_3
 
