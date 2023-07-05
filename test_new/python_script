@@ -1,0 +1,18 @@
+PYTHON/BIO-PYTHON SCRIPT 
+
+Get the file path.
+
+Identify the appropraite line the search should start.
+- Select line that doesnt begin with #, that is ignore the heading.
+- Start reading from line after the heading.
+
+Identify the best parameter to select HSPs.
+- Define the parameter or parameters that are suitable to select the sequences. 
+- Name the paremeter.
+
+Write a statement to filter and select the best HSP.
+- That is statement that set the parameter to a particular value
+
+Print the output if the condition is met.
+- Return the value after condition is met
+
