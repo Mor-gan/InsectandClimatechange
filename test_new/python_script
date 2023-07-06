@@ -7,12 +7,18 @@ Identify the appropraite line the search should start.
 - Start reading from line after the heading.
 
 Identify the best parameter to select HSPs.
-- Define the parameter or parameters that are suitable to select the sequences. 
-- Name the paremeter.
+<!-- - Define the parameter or parameters that are suitable to select the sequences. 
+- Name the paremeter. -->
+- Check the first five sequence in the block of result.
 
 Write a statement to filter and select the best HSP.
-- That is statement that set the parameter to a particular value
+<!-- - That is statement that set the parameter to a particular value -->
+- Check the first five sequence in the block of result.
 
 Print the output if the condition is met.
-- Return the value after condition is met
+- Return the value after condition is met.
+
+Find the 
+
+I
 
