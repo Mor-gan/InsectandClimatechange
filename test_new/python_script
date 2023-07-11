@@ -2,23 +2,19 @@ PYTHON/BIO-PYTHON SCRIPT
 
 Get the file path.
 
+- Read in the file by indicating the file path.
+
 Identify the appropraite line the search should start.
+
 - Select line that doesnt begin with #, that is ignore the heading.
 - Start reading from line after the heading.
 
-Identify the best parameter to select HSPs.
-<!-- - Define the parameter or parameters that are suitable to select the sequences. 
-- Name the paremeter. -->
-- Check the first five sequence in the block of result.
+Identify the best parameter to select HSPs by selecting first five sequence.
 
-Write a statement to filter and select the best HSP.
-<!-- - That is statement that set the parameter to a particular value -->
-- Check the first five sequence in the block of result.
+- Take the first line of the table, cut after underscore into differnt variable.
+- Loop through the line of the file.
+- Print the first variable, which is the ID.
+- Stop the loop when default value is less than or equals 5. 
 
-Print the output if the condition is met.
-- Return the value after condition is met.
 
-Find the 
-
-I
 
